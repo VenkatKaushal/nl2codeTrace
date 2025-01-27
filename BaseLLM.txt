@@ -1,0 +1,304 @@
+api_models.py:from llama_index.llms import BaseLLM
+api_models.py:class OllamaLLM(BaseLLM):
+llama_index/llama-index-core/llama_index/core/bridge/langchain.py:    BaseLLM,
+llama_index/llama-index-core/llama_index/core/bridge/langchain.py:    "BaseLLM",
+llama_index/llama-index-core/llama_index/core/base/llms/base.py:class BaseLLM(ChainableMixin, BaseComponent, DispatcherSpanMixin):
+llama_index/llama-index-core/llama_index/core/base/llms/base.py:    """BaseLLM interface."""
+llama_index/llama-index-core/llama_index/core/base/llms/base.py:    def check_callback_manager(self) -> "BaseLLM":
+llama_index/llama-index-core/llama_index/core/langchain_helpers/agents/agents.py:    BaseLLM,
+llama_index/llama-index-core/llama_index/core/langchain_helpers/agents/agents.py:    llm: BaseLLM,
+llama_index/llama-index-core/llama_index/core/langchain_helpers/agents/agents.py:    llm: BaseLLM,
+llama_index/llama-index-core/llama_index/core/prompts/base.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-core/llama_index/core/prompts/base.py:    def format(self, llm: Optional[BaseLLM] = None, **kwargs: Any) -> str:
+llama_index/llama-index-core/llama_index/core/prompts/base.py:        self, llm: Optional[BaseLLM] = None, **kwargs: Any
+llama_index/llama-index-core/llama_index/core/prompts/base.py:    def get_template(self, llm: Optional[BaseLLM] = None) -> str:
+llama_index/llama-index-core/llama_index/core/prompts/base.py:        self, llm: Optional[BaseLLM] = None, **kwargs: Any
+llama_index/llama-index-core/llama_index/core/prompts/base.py:        llm: Optional[BaseLLM] = None,
+llama_index/llama-index-core/llama_index/core/prompts/base.py:        self, llm: Optional[BaseLLM] = None, **kwargs: Any
+llama_index/llama-index-core/llama_index/core/prompts/base.py:    def get_template(self, llm: Optional[BaseLLM] = None) -> str:
+llama_index/llama-index-core/llama_index/core/prompts/base.py:        llm: Optional[BaseLLM] = None,
+llama_index/llama-index-core/llama_index/core/prompts/base.py:        self, llm: Optional[BaseLLM] = None, **kwargs: Any
+llama_index/llama-index-core/llama_index/core/prompts/base.py:    def get_template(self, llm: Optional[BaseLLM] = None) -> str:
+llama_index/llama-index-core/llama_index/core/prompts/base.py:        self, llm: Optional[BaseLLM] = None, **kwargs: Any
+llama_index/llama-index-core/llama_index/core/prompts/base.py:        Sequence[Tuple[Callable[[BaseLLM], bool], BasePromptTemplate]]
+llama_index/llama-index-core/llama_index/core/prompts/base.py:            Sequence[Tuple[Callable[[BaseLLM], bool], BasePromptTemplate]]
+llama_index/llama-index-core/llama_index/core/prompts/base.py:    def select(self, llm: Optional[BaseLLM] = None) -> BasePromptTemplate:
+llama_index/llama-index-core/llama_index/core/prompts/base.py:    def format(self, llm: Optional[BaseLLM] = None, **kwargs: Any) -> str:
+llama_index/llama-index-core/llama_index/core/prompts/base.py:        self, llm: Optional[BaseLLM] = None, **kwargs: Any
+llama_index/llama-index-core/llama_index/core/prompts/base.py:    def get_template(self, llm: Optional[BaseLLM] = None) -> str:
+llama_index/llama-index-core/llama_index/core/prompts/base.py:    def format(self, llm: Optional[BaseLLM] = None, **kwargs: Any) -> str:
+llama_index/llama-index-core/llama_index/core/prompts/base.py:        self, llm: Optional[BaseLLM] = None, **kwargs: Any
+llama_index/llama-index-core/llama_index/core/prompts/base.py:    def get_template(self, llm: Optional[BaseLLM] = None) -> str:
+llama_index/llama-index-core/llama_index/core/prompts/base.py:    llm: Optional[SerializeAsAny[BaseLLM]] = Field(
+llama_index/llama-index-core/llama_index/core/prompts/utils.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-core/llama_index/core/prompts/utils.py:def is_chat_model(llm: BaseLLM) -> bool:
+llama_index/llama-index-core/llama_index/core/program/llm_prompt_program.py:class BaseLLMFunctionProgram(BasePydanticProgram[BaseModel], Generic[LM]):
+llama_index/llama-index-core/llama_index/core/program/llm_prompt_program.py:    ) -> "BaseLLMFunctionProgram":
+llama_index/llama-index-core/llama_index/core/llms/llm.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-core/llama_index/core/llms/llm.py:class LLM(BaseLLM):
+llama_index/llama-index-core/llama_index/core/llms/llm.py:class BaseLLMComponent(QueryComponent):
+llama_index/llama-index-core/llama_index/core/llms/llm.py:class LLMCompleteComponent(BaseLLMComponent):
+llama_index/llama-index-core/llama_index/core/llms/llm.py:class LLMChatComponent(BaseLLMComponent):
+llama_index/llama-index-core/llama_index/core/llms/structured_llm.py:    BaseLLMComponent,
+llama_index/llama-index-core/llama_index/core/llms/structured_llm.py:        base_component: BaseLLMComponent
+llama_index/llama-index-core/llama_index/core/llms/structured_llm.py:    llm_component: SerializeAsAny[BaseLLMComponent]
+llama_index/llama-index-core/llama_index/core/service_context_elements/llm_predictor.py:class BaseLLMPredictor(BaseComponent, DispatcherSpanMixin, ABC):
+llama_index/llama-index-core/llama_index/core/service_context_elements/llm_predictor.py:class LLMPredictor(BaseLLMPredictor):
+llama_index/llama-index-integrations/program/llama-index-program-openai/tests/test_program_openai.py:from llama_index.core.program.llm_prompt_program import BaseLLMFunctionProgram
+llama_index/llama-index-integrations/program/llama-index-program-openai/tests/test_program_openai.py:    assert BaseLLMFunctionProgram.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/program/llama-index-program-openai/llama_index/program/openai/base.py:from llama_index.core.program.llm_prompt_program import BaseLLMFunctionProgram
+llama_index/llama-index-integrations/program/llama-index-program-openai/llama_index/program/openai/base.py:class OpenAIPydanticProgram(BaseLLMFunctionProgram[LLM]):
+llama_index/llama-index-integrations/program/llama-index-program-lmformatenforcer/tests/test_program_lmformatenforcer.py:from llama_index.core.program.llm_prompt_program import BaseLLMFunctionProgram
+llama_index/llama-index-integrations/program/llama-index-program-lmformatenforcer/tests/test_program_lmformatenforcer.py:    assert BaseLLMFunctionProgram.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/program/llama-index-program-lmformatenforcer/llama_index/program/lmformatenforcer/base.py:from llama_index.core.program.llm_prompt_program import BaseLLMFunctionProgram
+llama_index/llama-index-integrations/program/llama-index-program-lmformatenforcer/llama_index/program/lmformatenforcer/base.py:class LMFormatEnforcerPydanticProgram(BaseLLMFunctionProgram):
+llama_index/llama-index-integrations/program/llama-index-program-lmformatenforcer/llama_index/program/lmformatenforcer/base.py:    ) -> "BaseLLMFunctionProgram":
+llama_index/llama-index-integrations/program/llama-index-program-evaporate/llama_index/program/evaporate/df.py:from llama_index.core.program.llm_prompt_program import BaseLLMFunctionProgram
+llama_index/llama-index-integrations/program/llama-index-program-evaporate/llama_index/program/evaporate/df.py:        pydantic_program_cls: Type[BaseLLMFunctionProgram],
+llama_index/llama-index-integrations/program/llama-index-program-evaporate/llama_index/program/evaporate/df.py:        pydantic_program_cls: Optional[Type[BaseLLMFunctionProgram]] = None,
+llama_index/llama-index-integrations/program/llama-index-program-evaporate/llama_index/program/evaporate/df.py:        pydantic_program_cls: Type[BaseLLMFunctionProgram],
+llama_index/llama-index-integrations/program/llama-index-program-evaporate/llama_index/program/evaporate/df.py:        pydantic_program_cls: Optional[Type[BaseLLMFunctionProgram]] = None,
+llama_index/llama-index-integrations/program/llama-index-program-guidance/tests/test_program_guidance.py:from llama_index.core.program.llm_prompt_program import BaseLLMFunctionProgram
+llama_index/llama-index-integrations/program/llama-index-program-guidance/tests/test_program_guidance.py:    assert BaseLLMFunctionProgram.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/program/llama-index-program-guidance/llama_index/program/guidance/base.py:from llama_index.core.program.llm_prompt_program import BaseLLMFunctionProgram
+llama_index/llama-index-integrations/program/llama-index-program-guidance/llama_index/program/guidance/base.py:class GuidancePydanticProgram(BaseLLMFunctionProgram["GuidanceLLM"]):
+llama_index/llama-index-integrations/program/llama-index-program-guidance/llama_index/program/guidance/base.py:    ) -> "BaseLLMFunctionProgram":
+llama_index/llama-index-integrations/llms/llama-index-llms-upstage/tests/test_llms_upstage.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-upstage/tests/test_llms_upstage.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-reka/tests/test_llms_reka.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-reka/tests/test_llms_reka.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-nebius/tests/test_llms_nebius.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-nebius/tests/test_llms_nebius.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-huggingface-api/tests/test_llms_huggingface_api.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-huggingface-api/tests/test_llms_huggingface_api.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-anthropic/tests/test_llms_anthropic.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-anthropic/tests/test_llms_anthropic.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-mistralai/tests/test_llms_mistral.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-mistralai/tests/test_llms_mistral.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-neutrino/tests/test_llms_neutrino.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-neutrino/tests/test_llms_neutrino.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-ai21/tests/test_llms_ai21.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-ai21/tests/test_llms_ai21.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-sagemaker-endpoint/tests/test_llms_sagemaker_endpoint.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-sagemaker-endpoint/tests/test_llms_sagemaker_endpoint.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-palm/tests/test_llms_palm.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-palm/tests/test_llms_palm.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-openai/tests/test_llms_openai.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-openai/tests/test_llms_openai.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-octoai/tests/test_llms_octoai.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-octoai/tests/test_llms_octoai.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-dashscope/tests/test_llms_dashscope.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-dashscope/tests/test_llms_dashscope.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-vertex/tests/test_llms_vertex.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-vertex/tests/test_llms_vertex.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-oci-genai/tests/test_llms_oci_genai.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-oci-genai/tests/test_llms_oci_genai.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-perplexity/tests/test_llms_perplexity.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-perplexity/tests/test_llms_perplexity.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-siliconflow/tests/test_llms_siliconflow.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-siliconflow/tests/test_llms_siliconflow.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-pipeshift/tests/test_llms_pipeshift.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-pipeshift/tests/test_llms_pipeshift.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-portkey/tests/test_llms_portkey.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-portkey/tests/test_llms_portkey.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-alibabacloud-aisearch/tests/test_llms_alibabacloud_aisearch.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-alibabacloud-aisearch/tests/test_llms_alibabacloud_aisearch.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-predibase/tests/test_llms_predibase.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-predibase/tests/test_llms_predibase.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-llama-api/tests/test_llms_llama_api.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-llama-api/tests/test_llms_llama_api.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-anyscale/tests/test_llms_anyscale.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-anyscale/tests/test_llms_anyscale.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-lmstudio/tests/test_llms_lmstudio.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-lmstudio/tests/test_llms_lmstudio.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-ollama/tests/test_llms_ollama.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-ollama/tests/test_llms_ollama.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-localai/tests/test_llms_localai.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-localai/tests/test_llms_localai.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-rungpt/tests/test_llms_rungpt.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-rungpt/tests/test_llms_rungpt.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-huggingface/tests/test_llms_huggingface.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-huggingface/tests/test_llms_huggingface.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-huggingface/tests/test_llms_huggingface.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-azure-openai/tests/test_llms_azure_openai.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-azure-openai/tests/test_llms_azure_openai.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-fireworks/tests/test_llms_fireworks.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-fireworks/tests/test_llms_fireworks.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-opea/tests/test_llms_opea.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-opea/tests/test_llms_opea.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-cohere/tests/test_llms_cohere.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-cohere/tests/test_llms_cohere.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-cohere/llama_index/llms/cohere/utils.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-cohere/llama_index/llms/cohere/utils.py:def is_cohere_model(llm: BaseLLM) -> bool:
+llama_index/llama-index-integrations/llms/llama-index-llms-llamafile/tests/test_llms_llamafile.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-llamafile/tests/test_llms_llamafile.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-cerebras/tests/test_llms_cerebras.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-cerebras/tests/test_llms_cerebras.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-openrouter/tests/test_llms_openrouter.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-openrouter/tests/test_llms_openrouter.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-vllm/tests/test_llms_vllm.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-vllm/tests/test_llms_vllm.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-vllm/tests/test_llms_vllm.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-cleanlab/tests/test_llms_cleanlab.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-cleanlab/tests/test_llms_cleanlab.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-you/tests/test_llms_you.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-you/tests/test_llms_you.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-bedrock/tests/test_llms_bedrock.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-bedrock/tests/test_llms_bedrock.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-gigachat/tests/test_llms_gigachat.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-gigachat/tests/test_llms_gigachat.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-openai-like/tests/test_llms_openai_like.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-openai-like/tests/test_llms_openai_like.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-text-generation-inference/tests/test_llms_text_generation_inference.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-text-generation-inference/tests/test_llms_text_generation_inference.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-everlyai/tests/test_llms_everlyai.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-everlyai/tests/test_llms_everlyai.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-mistral-rs/tests/test_llms_mistral-rs.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-mistral-rs/tests/test_llms_mistral-rs.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-xinference/tests/test_llms_xinference.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-xinference/tests/test_llms_xinference.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-zhipuai/tests/test_llms_zhipuai.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-zhipuai/tests/test_llms_zhipuai.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-stepfun/tests/test_llms_stepfun.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-stepfun/tests/test_llms_stepfun.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-replicate/tests/test_llms_replicate.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-replicate/tests/test_llms_replicate.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-monsterapi/tests/test_llms_monsterapi.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-monsterapi/tests/test_llms_monsterapi.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-llama-cpp/tests/test_llms_llama_cpp.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-llama-cpp/tests/test_llms_llama_cpp.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-litellm/tests/test_llms_litellm.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-litellm/tests/test_llms_litellm.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-friendli/tests/test_llms_friendli.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-friendli/tests/test_llms_friendli.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-nvidia-triton/tests/test_llms_nvidia_triton.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-nvidia-triton/tests/test_llms_nvidia_triton.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-yi/tests/test_llms_yi.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-yi/tests/test_llms_yi.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-groq/tests/test_llms_groq.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-groq/tests/test_llms_groq.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-konko/tests/test_llms_konko.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-konko/tests/test_llms_konko.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-gemini/tests/test_llms_gemini.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-gemini/tests/test_llms_gemini.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-paieas/tests/test_llms_paieas.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-paieas/tests/test_llms_paieas.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-ibm/tests/test_llms_ibm.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-ibm/tests/test_llms_ibm.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-langchain/tests/test_llms_langchain.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-langchain/tests/test_llms_langchain.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-keywordsai/tests/test_llms_keywordsai.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-keywordsai/tests/test_llms_keywordsai.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-nvidia-tensorrt/tests/test_llms_nvidia_tensorrt.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-nvidia-tensorrt/tests/test_llms_nvidia_tensorrt.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-databricks/tests/test_llms_databricks.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-databricks/tests/test_llms_databricks.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-integrations/llms/llama-index-llms-together/tests/test_llms_together.py:from llama_index.core.base.llms.base import BaseLLM
+llama_index/llama-index-integrations/llms/llama-index-llms-together/tests/test_llms_together.py:    assert BaseLLM.__name__ in names_of_base_classes
+llama_index/llama-index-finetuning/llama_index/finetuning/mistralai/base.py:from llama_index.finetuning.types import BaseLLMFinetuneEngine
+llama_index/llama-index-finetuning/llama_index/finetuning/mistralai/base.py:class MistralAIFinetuneEngine(BaseLLMFinetuneEngine):
+llama_index/llama-index-finetuning/llama_index/finetuning/openai/base.py:from llama_index.finetuning.types import BaseLLMFinetuneEngine
+llama_index/llama-index-finetuning/llama_index/finetuning/openai/base.py:class OpenAIFinetuneEngine(BaseLLMFinetuneEngine):
+llama_index/llama-index-finetuning/llama_index/finetuning/types.py:class BaseLLMFinetuneEngine(ABC):
+llama_index/llama-index-packs/llama-index-packs-koda-retriever/tests/test_koda_retriever.py:from llama_index.core.llms.llm import BaseLLM
+llama_index/llama-index-packs/llama-index-packs-koda-retriever/tests/test_koda_retriever.py:    assert isinstance(retriever.llm, BaseLLM), "llm should be an instance of LLM"
+llama_index/docs/docs/api_reference/query_pipeline/llm.md:::: llama_index.core.llms.llm.BaseLLMComponent
+llama_index/docs/docs/examples/discover_llamaindex/document_management/discord_dumps/help_channel_dump_05_25_23.json:      "content": "Hello all! Trying to use llama with vertex ai, but I'm getting this error:\n\n```TypeError: BaseLLM.predict() got an unexpected keyword argument 'context_str'```\n\nAny help?\n\nThis is my code:\n```\ndef query_google_llm(chat, query):\n    response = chat.send_message(query)\n    print(response.text)\n    return response.text\n\nchat = build_google_llm()\n\nclass PaLM(LLM):\n\n    model_name = \"Bard\"\n    total_tokens_used = 0\n    last_token_usage = 0\n\n    def _call(self, prompt: str, stop: Optional[List[str]] = None) -> str:\n        print(\"prompt: \", prompt)\n        response = query_google_llm(chat, prompt)\n\n        print(\"response: \", response)\n        return response\n\n    @property\n    def _identifying_params(self) -> Mapping[str, Any]:\n        return {\"name_of_model\": self.model_name}\n\n    @property\n    def _llm_type(self) -> str:\n        return \"custom\"```",
+llama_index/docs/docs/examples/discover_llamaindex/document_management/discord_dumps/help_channel_dump_06_02_23.json:      "content": "Hello all! Trying to use llama with vertex ai, but I'm getting this error:\n\n```TypeError: BaseLLM.predict() got an unexpected keyword argument 'context_str'```\n\nAny help?\n\nThis is my code:\n```\ndef query_google_llm(chat, query):\n    response = chat.send_message(query)\n    print(response.text)\n    return response.text\n\nchat = build_google_llm()\n\nclass PaLM(LLM):\n\n    model_name = \"Bard\"\n    total_tokens_used = 0\n    last_token_usage = 0\n\n    def _call(self, prompt: str, stop: Optional[List[str]] = None) -> str:\n        print(\"prompt: \", prompt)\n        response = query_google_llm(chat, prompt)\n\n        print(\"response: \", response)\n        return response\n\n    @property\n    def _identifying_params(self) -> Mapping[str, Any]:\n        return {\"name_of_model\": self.model_name}\n\n    @property\n    def _llm_type(self) -> str:\n        return \"custom\"```",
+venv/lib/python3.12/site-packages/langchain_core/language_models/llms.py:class BaseLLM(BaseLanguageModel[str], ABC):
+venv/lib/python3.12/site-packages/langchain_core/language_models/llms.py:        if type(self)._stream == BaseLLM._stream:
+venv/lib/python3.12/site-packages/langchain_core/language_models/llms.py:            type(self)._astream is BaseLLM._astream
+venv/lib/python3.12/site-packages/langchain_core/language_models/llms.py:            and type(self)._stream is BaseLLM._stream
+venv/lib/python3.12/site-packages/langchain_core/language_models/llms.py:class LLM(BaseLLM):
+venv/lib/python3.12/site-packages/langchain_core/language_models/__init__.py:To implement a custom LLM, inherit from `BaseLLM` or `LLM`.
+venv/lib/python3.12/site-packages/langchain_core/language_models/__init__.py:from langchain_core.language_models.llms import LLM, BaseLLM
+venv/lib/python3.12/site-packages/langchain_core/language_models/__init__.py:    "BaseLLM",
+venv/lib/python3.12/site-packages/langchain_core/output_parsers/__init__.py:    BaseLLMOutputParser --> BaseOutputParser --> <name>OutputParser  # ListOutputParser, PydanticOutputParser
+venv/lib/python3.12/site-packages/langchain_core/output_parsers/__init__.py:    BaseLLMOutputParser,
+venv/lib/python3.12/site-packages/langchain_core/output_parsers/__init__.py:    "BaseLLMOutputParser",
+venv/lib/python3.12/site-packages/langchain_core/output_parsers/base.py:class BaseLLMOutputParser(Generic[T], ABC):
+venv/lib/python3.12/site-packages/langchain_core/output_parsers/base.py:    BaseLLMOutputParser, RunnableSerializable[LanguageModelOutput, T]
+venv/lib/python3.12/site-packages/langchain_core/output_parsers/base.py:    BaseLLMOutputParser, RunnableSerializable[LanguageModelOutput, T]
+venv/lib/python3.12/site-packages/llama_index/program/openai/base.py:from llama_index.core.program.llm_prompt_program import BaseLLMFunctionProgram
+venv/lib/python3.12/site-packages/llama_index/program/openai/base.py:class OpenAIPydanticProgram(BaseLLMFunctionProgram[LLM]):
+venv/lib/python3.12/site-packages/llama_index/llms/base/__init__.py:from .base import BaseLLM
+venv/lib/python3.12/site-packages/llama_index/llms/base/__init__.py:__all__ = ['BaseLLM']
+venv/lib/python3.12/site-packages/llama_index/llms/base/base.py:class BaseLLM(ChainableMixin, BaseComponent, DispatcherSpanMixin):
+venv/lib/python3.12/site-packages/llama_index/llms/base/base.py:    """BaseLLM interface."""
+venv/lib/python3.12/site-packages/llama_index/llms/base/base.py:    def check_callback_manager(self) -> "BaseLLM":
+venv/lib/python3.12/site-packages/llama_index/llms/cohere/utils.py:from llama_index.core.base.llms.base import BaseLLM
+venv/lib/python3.12/site-packages/llama_index/llms/cohere/utils.py:def is_cohere_model(llm: BaseLLM) -> bool:
+venv/lib/python3.12/site-packages/llama_index/core/bridge/langchain.py:    BaseLLM,
+venv/lib/python3.12/site-packages/llama_index/core/bridge/langchain.py:    "BaseLLM",
+venv/lib/python3.12/site-packages/llama_index/core/base/llms/base.py:class BaseLLM(ChainableMixin, BaseComponent, DispatcherSpanMixin):
+venv/lib/python3.12/site-packages/llama_index/core/base/llms/base.py:    """BaseLLM interface."""
+venv/lib/python3.12/site-packages/llama_index/core/base/llms/base.py:    def check_callback_manager(self) -> "BaseLLM":
+venv/lib/python3.12/site-packages/llama_index/core/langchain_helpers/agents/agents.py:    BaseLLM,
+venv/lib/python3.12/site-packages/llama_index/core/langchain_helpers/agents/agents.py:    llm: BaseLLM,
+venv/lib/python3.12/site-packages/llama_index/core/langchain_helpers/agents/agents.py:    llm: BaseLLM,
+venv/lib/python3.12/site-packages/llama_index/core/prompts/base.py:from llama_index.core.base.llms.base import BaseLLM
+venv/lib/python3.12/site-packages/llama_index/core/prompts/base.py:    def format(self, llm: Optional[BaseLLM] = None, **kwargs: Any) -> str:
+venv/lib/python3.12/site-packages/llama_index/core/prompts/base.py:        self, llm: Optional[BaseLLM] = None, **kwargs: Any
+venv/lib/python3.12/site-packages/llama_index/core/prompts/base.py:    def get_template(self, llm: Optional[BaseLLM] = None) -> str:
+venv/lib/python3.12/site-packages/llama_index/core/prompts/base.py:        self, llm: Optional[BaseLLM] = None, **kwargs: Any
+venv/lib/python3.12/site-packages/llama_index/core/prompts/base.py:        llm: Optional[BaseLLM] = None,
+venv/lib/python3.12/site-packages/llama_index/core/prompts/base.py:        self, llm: Optional[BaseLLM] = None, **kwargs: Any
+venv/lib/python3.12/site-packages/llama_index/core/prompts/base.py:    def get_template(self, llm: Optional[BaseLLM] = None) -> str:
+venv/lib/python3.12/site-packages/llama_index/core/prompts/base.py:        llm: Optional[BaseLLM] = None,
+venv/lib/python3.12/site-packages/llama_index/core/prompts/base.py:        self, llm: Optional[BaseLLM] = None, **kwargs: Any
+venv/lib/python3.12/site-packages/llama_index/core/prompts/base.py:    def get_template(self, llm: Optional[BaseLLM] = None) -> str:
+venv/lib/python3.12/site-packages/llama_index/core/prompts/base.py:        self, llm: Optional[BaseLLM] = None, **kwargs: Any
+venv/lib/python3.12/site-packages/llama_index/core/prompts/base.py:        Sequence[Tuple[Callable[[BaseLLM], bool], BasePromptTemplate]]
+venv/lib/python3.12/site-packages/llama_index/core/prompts/base.py:            Sequence[Tuple[Callable[[BaseLLM], bool], BasePromptTemplate]]
+venv/lib/python3.12/site-packages/llama_index/core/prompts/base.py:    def select(self, llm: Optional[BaseLLM] = None) -> BasePromptTemplate:
+venv/lib/python3.12/site-packages/llama_index/core/prompts/base.py:    def format(self, llm: Optional[BaseLLM] = None, **kwargs: Any) -> str:
+venv/lib/python3.12/site-packages/llama_index/core/prompts/base.py:        self, llm: Optional[BaseLLM] = None, **kwargs: Any
+venv/lib/python3.12/site-packages/llama_index/core/prompts/base.py:    def get_template(self, llm: Optional[BaseLLM] = None) -> str:
+venv/lib/python3.12/site-packages/llama_index/core/prompts/base.py:    def format(self, llm: Optional[BaseLLM] = None, **kwargs: Any) -> str:
+venv/lib/python3.12/site-packages/llama_index/core/prompts/base.py:        self, llm: Optional[BaseLLM] = None, **kwargs: Any
+venv/lib/python3.12/site-packages/llama_index/core/prompts/base.py:    def get_template(self, llm: Optional[BaseLLM] = None) -> str:
+venv/lib/python3.12/site-packages/llama_index/core/prompts/base.py:    llm: Optional[SerializeAsAny[BaseLLM]] = Field(
+venv/lib/python3.12/site-packages/llama_index/core/prompts/utils.py:from llama_index.core.base.llms.base import BaseLLM
+venv/lib/python3.12/site-packages/llama_index/core/prompts/utils.py:def is_chat_model(llm: BaseLLM) -> bool:
+venv/lib/python3.12/site-packages/llama_index/core/program/llm_prompt_program.py:class BaseLLMFunctionProgram(BasePydanticProgram[BaseModel], Generic[LM]):
+venv/lib/python3.12/site-packages/llama_index/core/program/llm_prompt_program.py:    ) -> "BaseLLMFunctionProgram":
+venv/lib/python3.12/site-packages/llama_index/core/llms/llm.py:from llama_index.core.base.llms.base import BaseLLM
+venv/lib/python3.12/site-packages/llama_index/core/llms/llm.py:class LLM(BaseLLM):
+venv/lib/python3.12/site-packages/llama_index/core/llms/llm.py:class BaseLLMComponent(QueryComponent):
+venv/lib/python3.12/site-packages/llama_index/core/llms/llm.py:class LLMCompleteComponent(BaseLLMComponent):
+venv/lib/python3.12/site-packages/llama_index/core/llms/llm.py:class LLMChatComponent(BaseLLMComponent):
+venv/lib/python3.12/site-packages/llama_index/core/llms/structured_llm.py:    BaseLLMComponent,
+venv/lib/python3.12/site-packages/llama_index/core/llms/structured_llm.py:        base_component: BaseLLMComponent
+venv/lib/python3.12/site-packages/llama_index/core/llms/structured_llm.py:    llm_component: SerializeAsAny[BaseLLMComponent]
+venv/lib/python3.12/site-packages/llama_index/core/service_context_elements/llm_predictor.py:class BaseLLMPredictor(BaseComponent, DispatcherSpanMixin, ABC):
+venv/lib/python3.12/site-packages/llama_index/core/service_context_elements/llm_predictor.py:class LLMPredictor(BaseLLMPredictor):
+venv/lib/python3.12/site-packages/langchain/chains/openai_functions/qa_with_structure.py:from langchain_core.output_parsers import BaseLLMOutputParser
+venv/lib/python3.12/site-packages/langchain/chains/openai_functions/qa_with_structure.py:        _output_parser: BaseLLMOutputParser = PydanticOutputFunctionsParser(
+venv/lib/python3.12/site-packages/langchain/chains/openai_functions/base.py:    BaseLLMOutputParser,
+venv/lib/python3.12/site-packages/langchain/chains/openai_functions/base.py:    output_parser: Optional[BaseLLMOutputParser] = None,
+venv/lib/python3.12/site-packages/langchain/chains/openai_functions/base.py:        output_parser: BaseLLMOutputParser to use for parsing model outputs. By default
+venv/lib/python3.12/site-packages/langchain/chains/openai_functions/base.py:    output_parser: Optional[BaseLLMOutputParser] = None,
+venv/lib/python3.12/site-packages/langchain/chains/openai_functions/base.py:        output_parser: BaseLLMOutputParser to use for parsing model outputs. By default
+venv/lib/python3.12/site-packages/langchain/chains/llm.py:from langchain_core.output_parsers import BaseLLMOutputParser, StrOutputParser
+venv/lib/python3.12/site-packages/langchain/chains/llm.py:    output_parser: BaseLLMOutputParser = Field(default_factory=StrOutputParser)
+venv/lib/python3.12/site-packages/langchain/chains/prompt_selector.py:from langchain_core.language_models.llms import BaseLLM
+venv/lib/python3.12/site-packages/langchain/chains/prompt_selector.py:        True if the language model is a BaseLLM model, False otherwise.
+venv/lib/python3.12/site-packages/langchain/chains/prompt_selector.py:    return isinstance(llm, BaseLLM)
+venv/lib/python3.12/site-packages/langchain/chains/structured_output/base.py:        output_parser: BaseLLMOutputParser to use for parsing model outputs. By default
+venv/lib/python3.12/site-packages/langchain/evaluation/qa/generate_chain.py:from langchain_core.output_parsers import BaseLLMOutputParser
+venv/lib/python3.12/site-packages/langchain/evaluation/qa/generate_chain.py:    output_parser: BaseLLMOutputParser = Field(default=_QA_OUTPUT_PARSER)
+venv/lib/python3.12/site-packages/langchain/llms/__init__.py:    BaseLanguageModel --> BaseLLM --> LLM --> <name>  # Examples: AI21, HuggingFaceHub, OpenAI
+venv/lib/python3.12/site-packages/langchain/llms/__init__.py:from langchain_core.language_models.llms import BaseLLM
+venv/lib/python3.12/site-packages/langchain/llms/__init__.py:        type_to_cls_dict: Dict[str, Type[BaseLLM]] = {
+venv/lib/python3.12/site-packages/langchain/llms/__init__.py:def get_type_to_cls_dict() -> Dict[str, Callable[[], Type[BaseLLM]]]:
+venv/lib/python3.12/site-packages/langchain/llms/base.py:    BaseLLM,
+venv/lib/python3.12/site-packages/langchain/llms/base.py:    "BaseLLM",
+venv/lib/python3.12/site-packages/langchain/model_laboratory.py:from langchain_core.language_models.llms import BaseLLM
+venv/lib/python3.12/site-packages/langchain/model_laboratory.py:        cls, llms: List[BaseLLM], prompt: Optional[PromptTemplate] = None
+venv/lib/python3.12/site-packages/langchain/schema/__init__.py:    BaseLLMOutputParser,
+venv/lib/python3.12/site-packages/langchain/schema/__init__.py:    "BaseLLMOutputParser",
+venv/lib/python3.12/site-packages/langchain/schema/output_parser.py:    BaseLLMOutputParser,
+venv/lib/python3.12/site-packages/langchain/schema/output_parser.py:    "BaseLLMOutputParser",
+venv/lib/python3.12/site-packages/langchain/retrievers/re_phraser.py:from langchain_core.language_models import BaseLLM
+venv/lib/python3.12/site-packages/langchain/retrievers/re_phraser.py:        llm: BaseLLM,
+venv/lib/python3.12/site-packages/langchain/output_parsers/__init__.py:    BaseLLMOutputParser --> BaseOutputParser --> <name>OutputParser  # ListOutputParser, PydanticOutputParser

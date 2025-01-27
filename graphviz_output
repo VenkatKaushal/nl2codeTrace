@@ -1,0 +1,1379 @@
+digraph {
+	Messages [label=Messages]
+	HtmlEncoder [label=HtmlEncoder]
+	DBUtil [label=DBUtil]
+	EmailUtil [label=EmailUtil]
+	ParameterUtil [label=ParameterUtil]
+	RandomPassword [label=RandomPassword]
+	Localization [label=Localization]
+	BeanBuilder [label=BeanBuilder]
+	DateUtil [label=DateUtil]
+	ProductionConnectionDriver [label=ProductionConnectionDriver]
+	DAOFactory [label=DAOFactory]
+	IConnectionDriver [label=IConnectionDriver]
+	AdverseEventDAO [label=AdverseEventDAO]
+	DrugInteractionDAO [label=DrugInteractionDAO]
+	SurveyResultDAO [label=SurveyResultDAO]
+	ApptTypeDAO [label=ApptTypeDAO]
+	TransactionDAO [label=TransactionDAO]
+	NDCodesDAO [label=NDCodesDAO]
+	ICDCodesDAO [label=ICDCodesDAO]
+	HealthRecordsDAO [label=HealthRecordsDAO]
+	ApptDAO [label=ApptDAO]
+	PersonnelDAO [label=PersonnelDAO]
+	ReportRequestDAO [label=ReportRequestDAO]
+	SurveyDAO [label=SurveyDAO]
+	RiskDAO [label=RiskDAO]
+	OfficeVisitDAO [label=OfficeVisitDAO]
+	CPTCodesDAO [label=CPTCodesDAO]
+	AllergyDAO [label=AllergyDAO]
+	MessageDAO [label=MessageDAO]
+	LabProcedureDAO [label=LabProcedureDAO]
+	FamilyDAO [label=FamilyDAO]
+	PatientDAO [label=PatientDAO]
+	AuthDAO [label=AuthDAO]
+	ReferralDAO [label=ReferralDAO]
+	LOINCDAO [label=LOINCDAO]
+	FakeEmailDAO [label=FakeEmailDAO]
+	HospitalsDAO [label=HospitalsDAO]
+	RemoteMonitoringDAO [label=RemoteMonitoringDAO]
+	AccessDAO [label=AccessDAO]
+	ChronicDiseaseMediator [label=ChronicDiseaseMediator]
+	HeartDiseaseRisks [label=HeartDiseaseRisks]
+	Type2DiabetesRisks [label=Type2DiabetesRisks]
+	Type1DiabetesRisks [label=Type1DiabetesRisks]
+	RiskChecker [label=RiskChecker]
+	ChildhoodInfectionFactor [label=ChildhoodInfectionFactor]
+	AgeFactor [label=AgeFactor]
+	PatientRiskFactor [label=PatientRiskFactor]
+	EthnicityFactor [label=EthnicityFactor]
+	PriorDiagnosisFactor [label=PriorDiagnosisFactor]
+	SmokingFactor [label=SmokingFactor]
+	CholesterolFactor [label=CholesterolFactor]
+	HypertensionFactor [label=HypertensionFactor]
+	FamilyHistoryFactor [label=FamilyHistoryFactor]
+	WeightFactor [label=WeightFactor]
+	GenderFactor [label=GenderFactor]
+	FamilyMemberBean [label=FamilyMemberBean]
+	ReportRequestBean [label=ReportRequestBean]
+	ApptTypeBean [label=ApptTypeBean]
+	HCPLinkBean [label=HCPLinkBean]
+	HospitalBean [label=HospitalBean]
+	DrugInteractionBean [label=DrugInteractionBean]
+	ProcedureBean [label=ProcedureBean]
+	OfficeVisitBean [label=OfficeVisitBean]
+	LOINCbean [label=LOINCbean]
+	Email [label=Email]
+	MessageBean [label=MessageBean]
+	HealthRecord [label=HealthRecord]
+	AllergyBean [label=AllergyBean]
+	DiagnosisBean [label=DiagnosisBean]
+	PatientVisitBean [label=PatientVisitBean]
+	PrescriptionReportBean [label=PrescriptionReportBean]
+	MedicationBean [label=MedicationBean]
+	PatientBean [label=PatientBean]
+	LabProcedureBean [label=LabProcedureBean]
+	RemoteMonitoringDataBean [label=RemoteMonitoringDataBean]
+	ApptBean [label=ApptBean]
+	SecurityQA [label=SecurityQA]
+	SurveyResultBean [label=SurveyResultBean]
+	HCPVisitBean [label=HCPVisitBean]
+	PrescriptionBean [label=PrescriptionBean]
+	OperationalProfile [label=OperationalProfile]
+	PersonnelBean [label=PersonnelBean]
+	AdverseEventBean [label=AdverseEventBean]
+	TransactionBean [label=TransactionBean]
+	HCPDiagnosisBean [label=HCPDiagnosisBean]
+	SurveyBean [label=SurveyBean]
+	ReferralBean [label=ReferralBean]
+	TransactionBeanLoader [label=TransactionBeanLoader]
+	ApptTypeBeanLoader [label=ApptTypeBeanLoader]
+	HospitalBeanLoader [label=HospitalBeanLoader]
+	MessageBeanLoader [label=MessageBeanLoader]
+	RemoteMonitoringDataBeanLoader [label=RemoteMonitoringDataBeanLoader]
+	EmailBeanLoader [label=EmailBeanLoader]
+	SurveyLoader [label=SurveyLoader]
+	AllergyBeanLoader [label=AllergyBeanLoader]
+	HealthRecordsBeanLoader [label=HealthRecordsBeanLoader]
+	PatientLoader [label=PatientLoader]
+	LOINCBeanLoader [label=LOINCBeanLoader]
+	PersonnelLoader [label=PersonnelLoader]
+	LabProcedureBeanLoader [label=LabProcedureBeanLoader]
+	ProcedureBeanLoader [label=ProcedureBeanLoader]
+	AdverseEventBeanLoader [label=AdverseEventBeanLoader]
+	OfficeVisitLoader [label=OfficeVisitLoader]
+	PrescriptionReportBeanLoader [label=PrescriptionReportBeanLoader]
+	OperationalProfileLoader [label=OperationalProfileLoader]
+	BeanLoader [label=BeanLoader]
+	ReportRequestBeanLoader [label=ReportRequestBeanLoader]
+	MedicationBeanLoader [label=MedicationBeanLoader]
+	ApptBeanLoader [label=ApptBeanLoader]
+	DrugInteractionBeanLoader [label=DrugInteractionBeanLoader]
+	ReferralBeanLoader [label=ReferralBeanLoader]
+	FamilyBeanLoader [label=FamilyBeanLoader]
+	PrescriptionBeanLoader [label=PrescriptionBeanLoader]
+	SurveyResultBeanLoader [label=SurveyResultBeanLoader]
+	DiagnosisBeanLoader [label=DiagnosisBeanLoader]
+	HealthRecordForm [label=HealthRecordForm]
+	EditOfficeVisitForm [label=EditOfficeVisitForm]
+	AdverseEventsData [label=AdverseEventsData]
+	DBException [label=DBException]
+	FormValidationException [label=FormValidationException]
+	ErrorList [label=ErrorList]
+	iTrustException [label=iTrustException]
+	NoHealthRecordsException [label=NoHealthRecordsException]
+	ProcedureBeanValidator [label=ProcedureBeanValidator]
+	PatientValidator [label=PatientValidator]
+	HospitalBeanValidator [label=HospitalBeanValidator]
+	AllergyBeanValidator [label=AllergyBeanValidator]
+	SurveySearchValidator [label=SurveySearchValidator]
+	EMailValidator [label=EMailValidator]
+	HealthRecordFormValidator [label=HealthRecordFormValidator]
+	ApptBeanValidator [label=ApptBeanValidator]
+	ValidationFormat [label=ValidationFormat]
+	AddPersonnelValidator [label=AddPersonnelValidator]
+	MailValidator [label=MailValidator]
+	AdverseEventValidator [label=AdverseEventValidator]
+	DiagnosisBeanValidator [label=DiagnosisBeanValidator]
+	ApptTypeBeanValidator [label=ApptTypeBeanValidator]
+	AddPatientValidator [label=AddPatientValidator]
+	RemoteMonitoringDataBeanValidator [label=RemoteMonitoringDataBeanValidator]
+	SecurityQAValidator [label=SecurityQAValidator]
+	LabProcedureValidator [label=LabProcedureValidator]
+	MessageValidator [label=MessageValidator]
+	MedicationBeanValidator [label=MedicationBeanValidator]
+	DrugInteractionValidator [label=DrugInteractionValidator]
+	PersonnelValidator [label=PersonnelValidator]
+	BeanValidator [label=BeanValidator]
+	LOINCBeanValidator [label=LOINCBeanValidator]
+	EditOfficeVisitValidator [label=EditOfficeVisitValidator]
+	PrescriptionAlerts [label=PrescriptionAlerts]
+	TransactionType [label=TransactionType]
+	State [label=State]
+	Ethnicity [label=Ethnicity]
+	Gender [label=Gender]
+	Role [label=Role]
+	BloodType [label=BloodType]
+	StateSelect [label=StateSelect]
+	PatientNavigation [label=PatientNavigation]
+	ICD9CMLink [label=ICD9CMLink]
+	EditHealthHistoryAction [label=EditHealthHistoryAction]
+	GenerateCalendarAction [label=GenerateCalendarAction]
+	UpdateICDCodeListAction [label=UpdateICDCodeListAction]
+	UpdateCPTCodeListAction [label=UpdateCPTCodeListAction]
+	AddERespAction [label=AddERespAction]
+	EditMonitoringListAction [label=EditMonitoringListAction]
+	UpdateHospitalListAction [label=UpdateHospitalListAction]
+	UpdateNDCodeListAction [label=UpdateNDCodeListAction]
+	EditPrescriptionAction [label=EditPrescriptionAction]
+	ReferralManagementAction [label=ReferralManagementAction]
+	SetSecurityQuestionAction [label=SetSecurityQuestionAction]
+	MonitorAdverseEventAction [label=MonitorAdverseEventAction]
+	GetUserNameAction [label=GetUserNameAction]
+	LabProcHCPAction [label=LabProcHCPAction]
+	EditRepresentativesAction [label=EditRepresentativesAction]
+	EditApptTypeAction [label=EditApptTypeAction]
+	MyDiagnosisAction [label=MyDiagnosisAction]
+	EmergencyReportAction [label=EmergencyReportAction]
+	EditPatientAction [label=EditPatientAction]
+	SendMessageAction [label=SendMessageAction]
+	EditPHRAction [label=EditPHRAction]
+	AddHCPAction [label=AddHCPAction]
+	ChronicDiseaseRiskAction [label=ChronicDiseaseRiskAction]
+	LabProcUAPAction [label=LabProcUAPAction]
+	UpdateLOINCListAction [label=UpdateLOINCListAction]
+	AddOfficeVisitAction [label=AddOfficeVisitAction]
+	LoginFailureAction [label=LoginFailureAction]
+	EditOfficeVisitAction [label=EditOfficeVisitAction]
+	DeclareHCPAction [label=DeclareHCPAction]
+	AddPatientAction [label=AddPatientAction]
+	ManageHospitalAssignmentsAction [label=ManageHospitalAssignmentsAction]
+	EditPersonnelAction [label=EditPersonnelAction]
+	DrugInteractionAction [label=DrugInteractionAction]
+	PrescriptionReportAction [label=PrescriptionReportAction]
+	ChangeSessionTimeoutAction [label=ChangeSessionTimeoutAction]
+	AddUAPAction [label=AddUAPAction]
+	SurveyAction [label=SurveyAction]
+	GetVisitRemindersAction [label=GetVisitRemindersAction]
+	AddApptAction [label=AddApptAction]
+	ResetPasswordAction [label=ResetPasswordAction]
+	AddPHAAction [label=AddPHAAction]
+	AddRemoteMonitoringDataAction [label=AddRemoteMonitoringDataAction]
+	SearchUsersAction [label=SearchUsersAction]
+	ReportAdverseEventAction [label=ReportAdverseEventAction]
+	PatientBaseAction [label=PatientBaseAction]
+	OfficeVisitBaseAction [label=OfficeVisitBaseAction]
+	PersonnelBaseAction [label=PersonnelBaseAction]
+	SessionTimeoutListener [label=SessionTimeoutListener]
+	ViewPersonnelAction [label=ViewPersonnelAction]
+	ViewPrescriptionRecordsAction [label=ViewPrescriptionRecordsAction]
+	ViewPrescriptionRenewalNeedsAction [label=ViewPrescriptionRenewalNeedsAction]
+	ViewOfficeVisitAction [label=ViewOfficeVisitAction]
+	VisitRemindersDAO [label=VisitRemindersDAO]
+	ViewExpiredPrescriptionsAction [label=ViewExpiredPrescriptionsAction]
+	ViewAdverseEventAction [label=ViewAdverseEventAction]
+	ViewSurveyResultAction [label=ViewSurveyResultAction]
+	ViewMyReportRequestsAction [label=ViewMyReportRequestsAction]
+	ViewMyAccessLogAction [label=ViewMyAccessLogAction]
+	ViewMyRecordsAction [label=ViewMyRecordsAction]
+	ViewMyApptsAction [label=ViewMyApptsAction]
+	ViewMyMessagesAction [label=ViewMyMessagesAction]
+	ViewReportAction [label=ViewReportAction]
+	ViewVisitedHCPsAction [label=ViewVisitedHCPsAction]
+	ViewPatientOfficeVisitHistoryAction [label=ViewPatientOfficeVisitHistoryAction]
+	ViewMyRemoteMonitoringListAction [label=ViewMyRemoteMonitoringListAction]
+	VisitReminderReturnForm [label=VisitReminderReturnForm]
+	Messages -> ViewPersonnelAction
+	Messages -> ViewPrescriptionRecordsAction
+	Messages -> ViewPrescriptionRenewalNeedsAction
+	Messages -> ViewOfficeVisitAction
+	Messages -> ReportRequestBean
+	Messages -> Localization
+	HtmlEncoder -> PatientBaseAction
+	DBUtil -> DAOFactory
+	DBUtil -> OfficeVisitDAO
+	DBUtil -> PatientDAO
+	DBUtil -> SurveyResultDAO
+	DBUtil -> NDCodesDAO
+	DBUtil -> RemoteMonitoringDAO
+	DBUtil -> LabProcedureDAO
+	DBUtil -> CPTCodesDAO
+	DBUtil -> AuthDAO
+	DBUtil -> TransactionDAO
+	DBUtil -> AdverseEventDAO
+	DBUtil -> FakeEmailDAO
+	DBUtil -> RiskDAO
+	DBUtil -> HealthRecordsDAO
+	DBUtil -> HospitalsDAO
+	DBUtil -> MessageDAO
+	DBUtil -> AllergyDAO
+	DBUtil -> DrugInteractionDAO
+	DBUtil -> VisitRemindersDAO
+	DBUtil -> ApptDAO
+	DBUtil -> PersonnelDAO
+	DBUtil -> ApptTypeDAO
+	DBUtil -> ReferralDAO
+	DBUtil -> ReportRequestDAO
+	DBUtil -> FamilyDAO
+	DBUtil -> SurveyDAO
+	DBUtil -> LOINCDAO
+	DBUtil -> ICDCodesDAO
+	DBUtil -> AccessDAO
+	EmailUtil -> FakeEmailDAO
+	EmailUtil -> DAOFactory
+	EmailUtil -> ViewExpiredPrescriptionsAction
+	EmailUtil -> MonitorAdverseEventAction
+	EmailUtil -> ViewPrescriptionRecordsAction
+	EmailUtil -> EditPatientAction
+	EmailUtil -> ReportAdverseEventAction
+	EmailUtil -> EditPHRAction
+	EmailUtil -> ResetPasswordAction
+	EmailUtil -> SendMessageAction
+	EmailUtil -> LabProcUAPAction
+	ParameterUtil -> PrescriptionReportAction
+	RandomPassword -> AddPatientAction
+	RandomPassword -> AuthDAO
+	RandomPassword -> AddHCPAction
+	RandomPassword -> AddPHAAction
+	RandomPassword -> AddERespAction
+	RandomPassword -> AddUAPAction
+	Localization -> Messages
+	DateUtil -> DateUtil
+	DateUtil -> VisitRemindersDAO
+	DateUtil -> PatientDAO
+	DAOFactory -> DBUtil
+	DAOFactory -> IConnectionDriver
+	DAOFactory -> OfficeVisitDAO
+	DAOFactory -> PatientDAO
+	DAOFactory -> SurveyResultDAO
+	DAOFactory -> NDCodesDAO
+	DAOFactory -> RemoteMonitoringDAO
+	DAOFactory -> LabProcedureDAO
+	DAOFactory -> CPTCodesDAO
+	DAOFactory -> AuthDAO
+	DAOFactory -> TransactionDAO
+	DAOFactory -> AdverseEventDAO
+	DAOFactory -> FakeEmailDAO
+	DAOFactory -> RiskDAO
+	DAOFactory -> HealthRecordsDAO
+	DAOFactory -> HospitalsDAO
+	DAOFactory -> MessageDAO
+	DAOFactory -> AllergyDAO
+	DAOFactory -> DrugInteractionDAO
+	DAOFactory -> VisitRemindersDAO
+	DAOFactory -> ApptDAO
+	DAOFactory -> PersonnelDAO
+	DAOFactory -> ApptTypeDAO
+	DAOFactory -> ReferralDAO
+	DAOFactory -> ReportRequestDAO
+	DAOFactory -> FamilyDAO
+	DAOFactory -> SurveyDAO
+	DAOFactory -> LOINCDAO
+	DAOFactory -> ICDCodesDAO
+	DAOFactory -> AccessDAO
+	DAOFactory -> SessionTimeoutListener
+	DAOFactory -> GetUserNameAction
+	DAOFactory -> AddOfficeVisitAction
+	DAOFactory -> PatientBaseAction
+	DAOFactory -> PersonnelBaseAction
+	DAOFactory -> SmokingFactor
+	DAOFactory -> FamilyHistoryFactor
+	DAOFactory -> PriorDiagnosisFactor
+	DAOFactory -> ChildhoodInfectionFactor
+	DAOFactory -> EmailUtil
+	IConnectionDriver -> DAOFactory
+	AdverseEventDAO -> DAOFactory
+	AdverseEventDAO -> AdverseEventBeanLoader
+	AdverseEventDAO -> DBUtil
+	AdverseEventDAO -> AdverseEventBean
+	AdverseEventDAO -> ReportAdverseEventAction
+	AdverseEventDAO -> MonitorAdverseEventAction
+	AdverseEventDAO -> ViewAdverseEventAction
+	DrugInteractionDAO -> DAOFactory
+	DrugInteractionDAO -> DrugInteractionBeanLoader
+	DrugInteractionDAO -> DBUtil
+	DrugInteractionDAO -> EditOfficeVisitAction
+	DrugInteractionDAO -> DrugInteractionAction
+	DrugInteractionDAO -> DrugInteractionDAO
+	DrugInteractionDAO -> DrugInteractionBean
+	SurveyResultDAO -> DAOFactory
+	SurveyResultDAO -> SurveyResultBeanLoader
+	SurveyResultDAO -> DBUtil
+	SurveyResultDAO -> ViewSurveyResultAction
+	ApptTypeDAO -> DAOFactory
+	ApptTypeDAO -> DBUtil
+	ApptTypeDAO -> ApptTypeBeanLoader
+	ApptTypeDAO -> EditApptTypeAction
+	ApptTypeDAO -> ApptTypeBean
+	TransactionDAO -> TransactionBeanLoader
+	TransactionDAO -> DAOFactory
+	TransactionDAO -> DBUtil
+	TransactionDAO -> TransactionType
+	TransactionDAO -> ViewMyReportRequestsAction
+	TransactionDAO -> LabProcHCPAction
+	TransactionDAO -> UpdateCPTCodeListAction
+	TransactionDAO -> AddHCPAction
+	TransactionDAO -> EditOfficeVisitAction
+	TransactionDAO -> UpdateHospitalListAction
+	TransactionDAO -> EditRepresentativesAction
+	TransactionDAO -> DeclareHCPAction
+	TransactionDAO -> AddUAPAction
+	TransactionDAO -> PrescriptionReportAction
+	TransactionDAO -> AddPatientAction
+	TransactionDAO -> ManageHospitalAssignmentsAction
+	TransactionDAO -> ViewPrescriptionRenewalNeedsAction
+	TransactionDAO -> AddApptAction
+	TransactionDAO -> ViewSurveyResultAction
+	TransactionDAO -> TransactionDAO
+	TransactionDAO -> EditPHRAction
+	TransactionDAO -> AddPHAAction
+	TransactionDAO -> UpdateNDCodeListAction
+	TransactionDAO -> LoginFailureAction
+	TransactionDAO -> EditHealthHistoryAction
+	TransactionDAO -> AddERespAction
+	TransactionDAO -> LabProcUAPAction
+	TransactionDAO -> EditMonitoringListAction
+	TransactionDAO -> MonitorAdverseEventAction
+	TransactionDAO -> EditPatientAction
+	TransactionDAO -> EditApptTypeAction
+	TransactionDAO -> AddOfficeVisitAction
+	TransactionDAO -> SurveyAction
+	TransactionDAO -> ViewMyAccessLogAction
+	TransactionDAO -> UpdateLOINCListAction
+	TransactionDAO -> ViewPersonnelAction
+	TransactionDAO -> UpdateICDCodeListAction
+	TransactionDAO -> ChronicDiseaseRiskAction
+	TransactionDAO -> GetVisitRemindersAction
+	TransactionDAO -> OperationalProfileLoader
+	TransactionDAO -> TransactionBean
+	NDCodesDAO -> DAOFactory
+	NDCodesDAO -> MedicationBeanLoader
+	NDCodesDAO -> DBUtil
+	NDCodesDAO -> EditOfficeVisitAction
+	NDCodesDAO -> MedicationBean
+	NDCodesDAO -> UpdateNDCodeListAction
+	ICDCodesDAO -> DiagnosisBeanLoader
+	ICDCodesDAO -> DAOFactory
+	ICDCodesDAO -> DBUtil
+	ICDCodesDAO -> EditPHRAction
+	ICDCodesDAO -> ViewMyRecordsAction
+	ICDCodesDAO -> DiagnosisBean
+	ICDCodesDAO -> UpdateICDCodeListAction
+	HealthRecordsDAO -> HealthRecordsBeanLoader
+	HealthRecordsDAO -> DAOFactory
+	HealthRecordsDAO -> DBUtil
+	HealthRecordsDAO -> ViewMyRecordsAction
+	HealthRecordsDAO -> EditPHRAction
+	HealthRecordsDAO -> EditHealthHistoryAction
+	ApptDAO -> DBUtil
+	ApptDAO -> DAOFactory
+	ApptDAO -> ApptBeanLoader
+	ApptDAO -> ViewMyApptsAction
+	ApptDAO -> AddApptAction
+	PersonnelDAO -> DAOFactory
+	PersonnelDAO -> DBUtil
+	PersonnelDAO -> ViewOfficeVisitAction
+	PersonnelDAO -> ViewMyMessagesAction
+	PersonnelDAO -> MyDiagnosisAction
+	PersonnelDAO -> AddApptAction
+	PersonnelDAO -> SendMessageAction
+	PersonnelDAO -> ViewMyApptsAction
+	PersonnelDAO -> AuthDAO
+	PersonnelDAO -> EditOfficeVisitAction
+	PersonnelDAO -> Role
+	PersonnelDAO -> AddHCPAction
+	PersonnelDAO -> AddPHAAction
+	PersonnelDAO -> AddERespAction
+	PersonnelDAO -> AddUAPAction
+	PersonnelDAO -> PersonnelLoader
+	PersonnelDAO -> ResetPasswordAction
+	PersonnelDAO -> ViewPersonnelAction
+	PersonnelDAO -> ReportAdverseEventAction
+	PersonnelDAO -> EditPersonnelAction
+	PersonnelDAO -> ViewReportAction
+	PersonnelDAO -> ViewVisitedHCPsAction
+	PersonnelDAO -> ViewMyReportRequestsAction
+	PersonnelDAO -> ViewPatientOfficeVisitHistoryAction
+	PersonnelDAO -> ViewMyRecordsAction
+	PersonnelDAO -> PersonnelBean
+	PersonnelDAO -> ManageHospitalAssignmentsAction
+	PersonnelDAO -> PersonnelBaseAction
+	PersonnelDAO -> HospitalBeanLoader
+	PersonnelDAO -> ViewExpiredPrescriptionsAction
+	PersonnelDAO -> ViewPrescriptionRecordsAction
+	PersonnelDAO -> PrescriptionBean
+	PersonnelDAO -> SearchUsersAction
+	ReportRequestDAO -> ReportRequestBeanLoader
+	ReportRequestDAO -> DAOFactory
+	ReportRequestDAO -> DBUtil
+	ReportRequestDAO -> ViewMyReportRequestsAction
+	ReportRequestDAO -> ViewMyRecordsAction
+	SurveyDAO -> SurveyBean
+	SurveyDAO -> DBUtil
+	SurveyDAO -> DAOFactory
+	SurveyDAO -> SurveyAction
+	SurveyDAO -> SurveyLoader
+	SurveyDAO -> MyDiagnosisAction
+	SurveyDAO -> ViewMyRecordsAction
+	RiskDAO -> RiskDAO
+	RiskDAO -> FamilyMemberBean
+	RiskDAO -> FamilyHistoryFactor
+	RiskDAO -> FamilyDAO
+	RiskDAO -> DAOFactory
+	RiskDAO -> DBUtil
+	RiskDAO -> ChildhoodInfectionFactor
+	RiskDAO -> SmokingFactor
+	RiskDAO -> PriorDiagnosisFactor
+	OfficeVisitDAO -> OfficeVisitDAO
+	OfficeVisitDAO -> DBUtil
+	OfficeVisitDAO -> DAOFactory
+	OfficeVisitDAO -> AddOfficeVisitAction
+	OfficeVisitDAO -> OfficeVisitBean
+	OfficeVisitDAO -> EditOfficeVisitAction
+	OfficeVisitDAO -> LabProcHCPAction
+	OfficeVisitDAO -> EditPHRAction
+	OfficeVisitDAO -> ViewMyRecordsAction
+	OfficeVisitDAO -> ViewOfficeVisitAction
+	OfficeVisitDAO -> EmergencyReportAction
+	OfficeVisitDAO -> ProcedureBeanLoader
+	OfficeVisitDAO -> PrescriptionBeanLoader
+	OfficeVisitDAO -> DiagnosisBeanLoader
+	OfficeVisitDAO -> PrescriptionBean
+	OfficeVisitDAO -> EditPrescriptionAction
+	OfficeVisitDAO -> OfficeVisitBaseAction
+	OfficeVisitDAO -> OfficeVisitLoader
+	OfficeVisitDAO -> ViewVisitedHCPsAction
+	OfficeVisitDAO -> PrescriptionReportAction
+	OfficeVisitDAO -> ViewPatientOfficeVisitHistoryAction
+	OfficeVisitDAO -> PrescriptionReportBeanLoader
+	OfficeVisitDAO -> DiagnosisBean
+	OfficeVisitDAO -> MyDiagnosisAction
+	CPTCodesDAO -> DAOFactory
+	CPTCodesDAO -> DBUtil
+	CPTCodesDAO -> ProcedureBeanLoader
+	CPTCodesDAO -> ProcedureBean
+	CPTCodesDAO -> UpdateCPTCodeListAction
+	AllergyDAO -> AllergyBeanLoader
+	AllergyDAO -> DAOFactory
+	AllergyDAO -> DBUtil
+	AllergyDAO -> EditPHRAction
+	AllergyDAO -> EditOfficeVisitAction
+	AllergyDAO -> EmergencyReportAction
+	AllergyDAO -> ViewMyRecordsAction
+	MessageDAO -> DAOFactory
+	MessageDAO -> MessageBeanLoader
+	MessageDAO -> DBUtil
+	MessageDAO -> ViewMyMessagesAction
+	MessageDAO -> MessageBean
+	MessageDAO -> SendMessageAction
+	LabProcedureDAO -> DAOFactory
+	LabProcedureDAO -> DBUtil
+	LabProcedureDAO -> LabProcedureBeanLoader
+	LabProcedureDAO -> ViewMyRecordsAction
+	LabProcedureDAO -> LabProcUAPAction
+	LabProcedureDAO -> LabProcHCPAction
+	LabProcedureDAO -> MyDiagnosisAction
+	LabProcedureDAO -> LabProcedureBean
+	FamilyDAO -> FamilyDAO
+	FamilyDAO -> EditPHRAction
+	FamilyDAO -> ViewMyRecordsAction
+	FamilyDAO -> RiskDAO
+	FamilyDAO -> FamilyBeanLoader
+	FamilyDAO -> DAOFactory
+	FamilyDAO -> DBUtil
+	PatientDAO -> DAOFactory
+	PatientDAO -> DBUtil
+	PatientDAO -> ViewMyMessagesAction
+	PatientDAO -> SendMessageAction
+	PatientDAO -> ReportAdverseEventAction
+	PatientDAO -> AddApptAction
+	PatientDAO -> ViewMyApptsAction
+	PatientDAO -> MonitorAdverseEventAction
+	PatientDAO -> AuthDAO
+	PatientDAO -> ResetPasswordAction
+	PatientDAO -> AddPatientAction
+	PatientDAO -> PatientLoader
+	PatientDAO -> ViewExpiredPrescriptionsAction
+	PatientDAO -> LabProcUAPAction
+	PatientDAO -> MyDiagnosisAction
+	PatientDAO -> EditPatientAction
+	PatientDAO -> ViewMyRecordsAction
+	PatientDAO -> PrescriptionReportAction
+	PatientDAO -> ViewPrescriptionRecordsAction
+	PatientDAO -> EditPHRAction
+	PatientDAO -> ViewPatientOfficeVisitHistoryAction
+	PatientDAO -> GetVisitRemindersAction
+	PatientDAO -> EditOfficeVisitAction
+	PatientDAO -> PatientBean
+	PatientDAO -> PatientBaseAction
+	PatientDAO -> PersonnelLoader
+	PatientDAO -> ViewVisitedHCPsAction
+	PatientDAO -> DeclareHCPAction
+	PatientDAO -> ViewReportAction
+	PatientDAO -> EditRepresentativesAction
+	PatientDAO -> EmergencyReportAction
+	PatientDAO -> ViewOfficeVisitAction
+	PatientDAO -> DiagnosisBeanLoader
+	PatientDAO -> ProcedureBeanLoader
+	PatientDAO -> PrescriptionBeanLoader
+	PatientDAO -> DateUtil
+	PatientDAO -> ViewPrescriptionRenewalNeedsAction
+	PatientDAO -> SearchUsersAction
+	AuthDAO -> DAOFactory
+	AuthDAO -> RandomPassword
+	AuthDAO -> DBUtil
+	AuthDAO -> Role
+	AuthDAO -> AddPatientAction
+	AuthDAO -> AddHCPAction
+	AuthDAO -> AddPHAAction
+	AuthDAO -> AddERespAction
+	AuthDAO -> AddUAPAction
+	AuthDAO -> SetSecurityQuestionAction
+	AuthDAO -> PatientDAO
+	AuthDAO -> AuthDAO
+	AuthDAO -> PersonnelDAO
+	AuthDAO -> GetUserNameAction
+	AuthDAO -> ViewMyRemoteMonitoringListAction
+	AuthDAO -> AddRemoteMonitoringDataAction
+	AuthDAO -> EditHealthHistoryAction
+	AuthDAO -> ChronicDiseaseRiskAction
+	AuthDAO -> EditMonitoringListAction
+	AuthDAO -> AddOfficeVisitAction
+	AuthDAO -> EditRepresentativesAction
+	AuthDAO -> DeclareHCPAction
+	AuthDAO -> ResetPasswordAction
+	AuthDAO -> LoginFailureAction
+	ReferralDAO -> ReferralBeanLoader
+	ReferralDAO -> DAOFactory
+	ReferralDAO -> DBUtil
+	ReferralDAO -> ReferralManagementAction
+	ReferralDAO -> ReferralBean
+	LOINCDAO -> DBUtil
+	LOINCDAO -> LOINCbean
+	LOINCDAO -> DAOFactory
+	LOINCDAO -> UpdateLOINCListAction
+	LOINCDAO -> LOINCBeanLoader
+	FakeEmailDAO -> DAOFactory
+	FakeEmailDAO -> DBUtil
+	FakeEmailDAO -> EmailBeanLoader
+	FakeEmailDAO -> ViewMyRecordsAction
+	FakeEmailDAO -> ViewPersonnelAction
+	FakeEmailDAO -> EmailUtil
+	HospitalsDAO -> DAOFactory
+	HospitalsDAO -> DBUtil
+	HospitalsDAO -> HospitalBeanLoader
+	HospitalsDAO -> ManageHospitalAssignmentsAction
+	HospitalsDAO -> EditOfficeVisitAction
+	HospitalsDAO -> HospitalBean
+	HospitalsDAO -> UpdateHospitalListAction
+	RemoteMonitoringDAO -> RemoteMonitoringDataBeanLoader
+	RemoteMonitoringDAO -> DBUtil
+	RemoteMonitoringDAO -> RemoteMonitoringDataBean
+	RemoteMonitoringDAO -> DAOFactory
+	RemoteMonitoringDAO -> ViewMyRemoteMonitoringListAction
+	RemoteMonitoringDAO -> EditMonitoringListAction
+	RemoteMonitoringDAO -> RemoteMonitoringDAO
+	RemoteMonitoringDAO -> AddRemoteMonitoringDataAction
+	AccessDAO -> AccessDAO
+	AccessDAO -> DAOFactory
+	AccessDAO -> DBUtil
+	AccessDAO -> SessionTimeoutListener
+	AccessDAO -> ChangeSessionTimeoutAction
+	ChronicDiseaseMediator -> RiskChecker
+	ChronicDiseaseMediator -> ChronicDiseaseRiskAction
+	ChronicDiseaseMediator -> EditPHRAction
+	HeartDiseaseRisks -> PatientBean
+	Type2DiabetesRisks -> PatientBean
+	Type1DiabetesRisks -> PatientBean
+	RiskChecker -> RiskChecker
+	RiskChecker -> PatientRiskFactor
+	RiskChecker -> ChronicDiseaseMediator
+	ChildhoodInfectionFactor -> DAOFactory
+	ChildhoodInfectionFactor -> RiskDAO
+	AgeFactor -> PatientBean
+	PatientRiskFactor -> PatientRiskFactor
+	PatientRiskFactor -> RiskChecker
+	EthnicityFactor -> PatientBean
+	EthnicityFactor -> Ethnicity
+	PriorDiagnosisFactor -> DAOFactory
+	PriorDiagnosisFactor -> RiskDAO
+	PriorDiagnosisFactor -> DBException
+	SmokingFactor -> DBException
+	SmokingFactor -> DAOFactory
+	SmokingFactor -> RiskDAO
+	CholesterolFactor -> HealthRecord
+	HypertensionFactor -> HealthRecord
+	FamilyHistoryFactor -> RiskDAO
+	FamilyHistoryFactor -> DAOFactory
+	FamilyHistoryFactor -> DBException
+	WeightFactor -> HealthRecord
+	GenderFactor -> Gender
+	GenderFactor -> PatientBean
+	FamilyMemberBean -> FamilyMemberBean
+	FamilyMemberBean -> FamilyBeanLoader
+	FamilyMemberBean -> ViewMyRecordsAction
+	FamilyMemberBean -> RiskDAO
+	FamilyMemberBean -> EditPHRAction
+	ReportRequestBean -> ReportRequestBeanLoader
+	ReportRequestBean -> ViewMyReportRequestsAction
+	ReportRequestBean -> ReportRequestBean
+	ReportRequestBean -> Messages
+	ApptTypeBean -> EditApptTypeAction
+	ApptTypeBean -> ApptTypeBeanValidator
+	ApptTypeBean -> ApptTypeBeanLoader
+	ApptTypeBean -> ApptTypeDAO
+	HospitalBean -> HospitalBeanValidator
+	HospitalBean -> UpdateHospitalListAction
+	HospitalBean -> HospitalsDAO
+	HospitalBean -> HospitalBean
+	DrugInteractionBean -> EditOfficeVisitAction
+	DrugInteractionBean -> DrugInteractionValidator
+	DrugInteractionBean -> DrugInteractionBeanLoader
+	DrugInteractionBean -> DrugInteractionAction
+	DrugInteractionBean -> DrugInteractionDAO
+	ProcedureBean -> GetVisitRemindersAction
+	ProcedureBean -> UpdateCPTCodeListAction
+	ProcedureBean -> ProcedureBeanValidator
+	ProcedureBean -> CPTCodesDAO
+	ProcedureBean -> ProcedureBeanLoader
+	OfficeVisitBean -> LabProcHCPAction
+	OfficeVisitBean -> OfficeVisitDAO
+	OfficeVisitBean -> MyDiagnosisAction
+	OfficeVisitBean -> EditOfficeVisitAction
+	OfficeVisitBean -> ViewPatientOfficeVisitHistoryAction
+	OfficeVisitBean -> ViewVisitedHCPsAction
+	OfficeVisitBean -> GenerateCalendarAction
+	OfficeVisitBean -> EmergencyReportAction
+	OfficeVisitBean -> PrescriptionReportAction
+	OfficeVisitBean -> AddOfficeVisitAction
+	OfficeVisitBean -> OfficeVisitLoader
+	LOINCbean -> UpdateLOINCListAction
+	LOINCbean -> LOINCBeanValidator
+	LOINCbean -> LOINCDAO
+	LOINCbean -> LOINCBeanLoader
+	Email -> ViewExpiredPrescriptionsAction
+	Email -> ResetPasswordAction
+	Email -> LabProcUAPAction
+	Email -> MonitorAdverseEventAction
+	Email -> ViewPrescriptionRecordsAction
+	Email -> EmailBeanLoader
+	Email -> EditPatientAction
+	Email -> ReportAdverseEventAction
+	Email -> EditPHRAction
+	Email -> SendMessageAction
+	Email -> EmergencyReportAction
+	Email -> EditOfficeVisitAction
+	Email -> Email
+	MessageBean -> MessageBeanLoader
+	MessageBean -> SendMessageAction
+	MessageBean -> MonitorAdverseEventAction
+	MessageBean -> MessageDAO
+	MessageBean -> ViewMyMessagesAction
+	MessageBean -> MessageValidator
+	MessageBean -> EMailValidator
+	HealthRecord -> HealthRecord
+	HealthRecord -> HealthRecordsBeanLoader
+	HealthRecord -> EditHealthHistoryAction
+	HealthRecord -> EditPHRAction
+	HealthRecord -> ViewMyRecordsAction
+	HealthRecord -> HypertensionFactor
+	HealthRecord -> CholesterolFactor
+	HealthRecord -> WeightFactor
+	AllergyBean -> EditOfficeVisitAction
+	AllergyBean -> AllergyBeanValidator
+	AllergyBean -> EditPHRAction
+	AllergyBean -> AllergyBeanLoader
+	AllergyBean -> AllergyBean
+	DiagnosisBean -> ICDCodesDAO
+	DiagnosisBean -> DiagnosisBeanValidator
+	DiagnosisBean -> UpdateICDCodeListAction
+	DiagnosisBean -> EditPHRAction
+	DiagnosisBean -> ViewMyRecordsAction
+	DiagnosisBean -> EmergencyReportAction
+	DiagnosisBean -> DiagnosisBeanLoader
+	DiagnosisBean -> OfficeVisitDAO
+	PatientVisitBean -> ViewPatientOfficeVisitHistoryAction
+	PrescriptionReportBean -> EditOfficeVisitAction
+	PrescriptionReportBean -> PrescriptionReportBeanLoader
+	MedicationBean -> MedicationBean
+	MedicationBean -> MedicationBeanValidator
+	MedicationBean -> EditOfficeVisitAction
+	MedicationBean -> NDCodesDAO
+	MedicationBean -> PrescriptionBeanLoader
+	MedicationBean -> UpdateNDCodeListAction
+	MedicationBean -> EmergencyReportAction
+	MedicationBean -> MyDiagnosisAction
+	MedicationBean -> MedicationBeanLoader
+	PatientBean -> PatientLoader
+	PatientBean -> EditPatientAction
+	PatientBean -> EmergencyReportAction
+	PatientBean -> BloodType
+	PatientBean -> EditPHRAction
+	PatientBean -> PatientValidator
+	PatientBean -> ViewMyRecordsAction
+	PatientBean -> PatientBean
+	PatientBean -> ViewPatientOfficeVisitHistoryAction
+	PatientBean -> AgeFactor
+	PatientBean -> Type2DiabetesRisks
+	PatientBean -> Type1DiabetesRisks
+	PatientBean -> GetVisitRemindersAction
+	PatientBean -> ViewExpiredPrescriptionsAction
+	PatientBean -> ResetPasswordAction
+	PatientBean -> AddPatientValidator
+	PatientBean -> LabProcUAPAction
+	PatientBean -> MonitorAdverseEventAction
+	PatientBean -> ViewPrescriptionRecordsAction
+	PatientBean -> ReportAdverseEventAction
+	PatientBean -> SendMessageAction
+	PatientBean -> EditOfficeVisitAction
+	PatientBean -> EthnicityFactor
+	PatientBean -> Ethnicity
+	PatientBean -> GenderFactor
+	PatientBean -> Gender
+	PatientBean -> PatientDAO
+	PatientBean -> HeartDiseaseRisks
+	PatientBean -> AddPatientAction
+	PatientBean -> MyDiagnosisAction
+	LabProcedureBean -> LabProcedureDAO
+	LabProcedureBean -> LabProcUAPAction
+	LabProcedureBean -> LabProcHCPAction
+	LabProcedureBean -> LabProcedureBeanLoader
+	LabProcedureBean -> LabProcedureValidator
+	LabProcedureBean -> GenerateCalendarAction
+	RemoteMonitoringDataBean -> RemoteMonitoringDataBeanLoader
+	RemoteMonitoringDataBean -> RemoteMonitoringDAO
+	RemoteMonitoringDataBean -> EditMonitoringListAction
+	RemoteMonitoringDataBean -> RemoteMonitoringDataBeanValidator
+	RemoteMonitoringDataBean -> AddRemoteMonitoringDataAction
+	ApptBean -> GenerateCalendarAction
+	ApptBean -> AddApptAction
+	ApptBean -> ApptBeanLoader
+	ApptBean -> ApptBeanValidator
+	SecurityQA -> SecurityQAValidator
+	SecurityQA -> SetSecurityQuestionAction
+	SurveyResultBean -> SurveyResultBeanLoader
+	SurveyResultBean -> ViewSurveyResultAction
+	SurveyResultBean -> SurveySearchValidator
+	HCPVisitBean -> ViewVisitedHCPsAction
+	PrescriptionBean -> MedicationBean
+	PrescriptionBean -> PrescriptionBean
+	PrescriptionBean -> PrescriptionBeanLoader
+	PrescriptionBean -> EditOfficeVisitAction
+	PrescriptionBean -> EmergencyReportAction
+	PrescriptionBean -> MyDiagnosisAction
+	PrescriptionBean -> PersonnelDAO
+	PrescriptionBean -> OfficeVisitDAO
+	OperationalProfile -> TransactionType
+	OperationalProfile -> OperationalProfileLoader
+	PersonnelBean -> PersonnelLoader
+	PersonnelBean -> EditPersonnelAction
+	PersonnelBean -> ResetPasswordAction
+	PersonnelBean -> PersonnelValidator
+	PersonnelBean -> ReportAdverseEventAction
+	PersonnelBean -> ViewPersonnelAction
+	PersonnelBean -> AddPersonnelValidator
+	PersonnelBean -> SendMessageAction
+	PersonnelBean -> ViewVisitedHCPsAction
+	PersonnelBean -> PersonnelBean
+	PersonnelBean -> EditPHRAction
+	PersonnelBean -> ViewMyReportRequestsAction
+	PersonnelBean -> ViewExpiredPrescriptionsAction
+	PersonnelBean -> ViewPrescriptionRecordsAction
+	PersonnelBean -> PersonnelDAO
+	PersonnelBean -> AddHCPAction
+	PersonnelBean -> AddPHAAction
+	PersonnelBean -> AddERespAction
+	PersonnelBean -> AddUAPAction
+	PersonnelBean -> MyDiagnosisAction
+	AdverseEventBean -> ReportAdverseEventAction
+	AdverseEventBean -> AdverseEventBeanLoader
+	AdverseEventBean -> AdverseEventsData
+	AdverseEventBean -> AdverseEventDAO
+	AdverseEventBean -> MonitorAdverseEventAction
+	AdverseEventBean -> AdverseEventValidator
+	TransactionBean -> TransactionDAO
+	TransactionBean -> TransactionBeanLoader
+	TransactionBean -> ViewMyAccessLogAction
+	HCPDiagnosisBean -> MyDiagnosisAction
+	SurveyBean -> SurveyAction
+	SurveyBean -> SurveyLoader
+	SurveyBean -> SurveyDAO
+	SurveyBean -> SurveyBean
+	SurveyBean -> MyDiagnosisAction
+	ReferralBean -> ReferralBean
+	ReferralBean -> ReferralDAO
+	ReferralBean -> ReferralBeanLoader
+	TransactionBeanLoader -> TransactionBeanLoader
+	TransactionBeanLoader -> TransactionDAO
+	TransactionBeanLoader -> TransactionBean
+	TransactionBeanLoader -> TransactionType
+	ApptTypeBeanLoader -> ApptTypeBeanLoader
+	ApptTypeBeanLoader -> ApptTypeDAO
+	ApptTypeBeanLoader -> ApptTypeBean
+	HospitalBeanLoader -> HospitalBeanLoader
+	HospitalBeanLoader -> HospitalsDAO
+	HospitalBeanLoader -> PersonnelDAO
+	MessageBeanLoader -> MessageBeanLoader
+	MessageBeanLoader -> MessageDAO
+	MessageBeanLoader -> MessageBean
+	RemoteMonitoringDataBeanLoader -> RemoteMonitoringDataBeanLoader
+	RemoteMonitoringDataBeanLoader -> RemoteMonitoringDAO
+	RemoteMonitoringDataBeanLoader -> RemoteMonitoringDataBean
+	EmailBeanLoader -> EmailBeanLoader
+	EmailBeanLoader -> FakeEmailDAO
+	EmailBeanLoader -> Email
+	SurveyLoader -> SurveyLoader
+	SurveyLoader -> SurveyBean
+	SurveyLoader -> SurveyDAO
+	AllergyBeanLoader -> AllergyBeanLoader
+	AllergyBeanLoader -> AllergyDAO
+	AllergyBeanLoader -> AllergyBean
+	HealthRecordsBeanLoader -> HealthRecordsBeanLoader
+	HealthRecordsBeanLoader -> HealthRecordsDAO
+	HealthRecordsBeanLoader -> HealthRecord
+	PatientLoader -> PatientLoader
+	PatientLoader -> PatientDAO
+	PatientLoader -> PatientBean
+	LOINCBeanLoader -> LOINCBeanLoader
+	LOINCBeanLoader -> LOINCDAO
+	LOINCBeanLoader -> LOINCbean
+	PersonnelLoader -> PersonnelLoader
+	PersonnelLoader -> PersonnelDAO
+	PersonnelLoader -> PatientDAO
+	PersonnelLoader -> PersonnelBean
+	PersonnelLoader -> Role
+	LabProcedureBeanLoader -> LabProcedureBeanLoader
+	LabProcedureBeanLoader -> LabProcedureDAO
+	LabProcedureBeanLoader -> LabProcedureBean
+	ProcedureBeanLoader -> ProcedureBeanLoader
+	ProcedureBeanLoader -> OfficeVisitDAO
+	ProcedureBeanLoader -> PatientDAO
+	ProcedureBeanLoader -> CPTCodesDAO
+	ProcedureBeanLoader -> ProcedureBean
+	AdverseEventBeanLoader -> AdverseEventBeanLoader
+	AdverseEventBeanLoader -> AdverseEventDAO
+	AdverseEventBeanLoader -> AdverseEventBean
+	OfficeVisitLoader -> OfficeVisitLoader
+	OfficeVisitLoader -> OfficeVisitDAO
+	OfficeVisitLoader -> OfficeVisitBean
+	OfficeVisitLoader -> PrescriptionReportBeanLoader
+	PrescriptionReportBeanLoader -> PrescriptionReportBeanLoader
+	PrescriptionReportBeanLoader -> OfficeVisitDAO
+	PrescriptionReportBeanLoader -> PrescriptionReportBean
+	PrescriptionReportBeanLoader -> PrescriptionBeanLoader
+	PrescriptionReportBeanLoader -> OfficeVisitLoader
+	OperationalProfileLoader -> OperationalProfileLoader
+	OperationalProfileLoader -> OperationalProfile
+	OperationalProfileLoader -> TransactionType
+	OperationalProfileLoader -> TransactionDAO
+	ReportRequestBeanLoader -> ReportRequestBeanLoader
+	ReportRequestBeanLoader -> ReportRequestDAO
+	ReportRequestBeanLoader -> ReportRequestBean
+	MedicationBeanLoader -> MedicationBeanLoader
+	MedicationBeanLoader -> NDCodesDAO
+	MedicationBeanLoader -> MedicationBean
+	MedicationBeanLoader -> PrescriptionBeanLoader
+	ApptBeanLoader -> ApptBeanLoader
+	ApptBeanLoader -> ApptDAO
+	ApptBeanLoader -> ApptBean
+	DrugInteractionBeanLoader -> DrugInteractionBeanLoader
+	DrugInteractionBeanLoader -> DrugInteractionDAO
+	DrugInteractionBeanLoader -> DrugInteractionBean
+	ReferralBeanLoader -> ReferralBeanLoader
+	ReferralBeanLoader -> ReferralDAO
+	ReferralBeanLoader -> ReferralBean
+	FamilyBeanLoader -> FamilyBeanLoader
+	FamilyBeanLoader -> FamilyDAO
+	FamilyBeanLoader -> FamilyMemberBean
+	PrescriptionBeanLoader -> PrescriptionBeanLoader
+	PrescriptionBeanLoader -> PatientDAO
+	PrescriptionBeanLoader -> OfficeVisitDAO
+	PrescriptionBeanLoader -> PrescriptionBean
+	PrescriptionBeanLoader -> MedicationBeanLoader
+	PrescriptionBeanLoader -> PrescriptionReportBeanLoader
+	SurveyResultBeanLoader -> SurveyResultBeanLoader
+	SurveyResultBeanLoader -> SurveyResultDAO
+	SurveyResultBeanLoader -> SurveyResultBean
+	DiagnosisBeanLoader -> DiagnosisBeanLoader
+	DiagnosisBeanLoader -> OfficeVisitDAO
+	DiagnosisBeanLoader -> PatientDAO
+	DiagnosisBeanLoader -> ICDCodesDAO
+	DiagnosisBeanLoader -> DiagnosisBean
+	HealthRecordForm -> EditHealthHistoryAction
+	HealthRecordForm -> HealthRecordFormValidator
+	EditOfficeVisitForm -> EditOfficeVisitAction
+	EditOfficeVisitForm -> EditOfficeVisitValidator
+	AdverseEventsData -> AdverseEventBean
+	DBException -> iTrustException
+	DBException -> SearchUsersAction
+	DBException -> UpdateCPTCodeListAction
+	DBException -> PriorDiagnosisFactor
+	DBException -> EditOfficeVisitAction
+	DBException -> UpdateHospitalListAction
+	DBException -> EditApptTypeAction
+	DBException -> SendMessageAction
+	DBException -> DrugInteractionAction
+	DBException -> AddApptAction
+	DBException -> UpdateICDCodeListAction
+	DBException -> SmokingFactor
+	DBException -> SessionTimeoutListener
+	DBException -> ResetPasswordAction
+	DBException -> FamilyHistoryFactor
+	DBException -> UpdateLOINCListAction
+	DBException -> UpdateNDCodeListAction
+	DBException -> LoginFailureAction
+	DBException -> ViewMyMessagesAction
+	DBException -> ViewVisitedHCPsAction
+	DBException -> ViewMyRecordsAction
+	DBException -> EmergencyReportAction
+	DBException -> ViewPatientOfficeVisitHistoryAction
+	DBException -> ReportAdverseEventAction
+	FormValidationException -> ErrorList
+	FormValidationException -> EditPHRAction
+	FormValidationException -> ReportAdverseEventAction
+	ErrorList -> MedicationBeanValidator
+	ErrorList -> SecurityQAValidator
+	ErrorList -> AddPersonnelValidator
+	ErrorList -> ProcedureBeanValidator
+	ErrorList -> DrugInteractionValidator
+	ErrorList -> ApptBeanValidator
+	ErrorList -> LabProcedureValidator
+	ErrorList -> LOINCBeanValidator
+	ErrorList -> EMailValidator
+	ErrorList -> HospitalBeanValidator
+	ErrorList -> DiagnosisBeanValidator
+	ErrorList -> MessageValidator
+	ErrorList -> PatientValidator
+	ErrorList -> AddPatientValidator
+	ErrorList -> AdverseEventValidator
+	ErrorList -> SurveySearchValidator
+	ErrorList -> PersonnelValidator
+	ErrorList -> EditOfficeVisitValidator
+	ErrorList -> RemoteMonitoringDataBeanValidator
+	ErrorList -> ApptTypeBeanValidator
+	ErrorList -> ResetPasswordAction
+	ErrorList -> AllergyBeanValidator
+	ErrorList -> HealthRecordFormValidator
+	ErrorList -> FormValidationException
+	iTrustException -> ViewOfficeVisitAction
+	iTrustException -> UpdateNDCodeListAction
+	iTrustException -> UpdateCPTCodeListAction
+	iTrustException -> UpdateICDCodeListAction
+	iTrustException -> UpdateHospitalListAction
+	iTrustException -> EditOfficeVisitAction
+	iTrustException -> DBException
+	iTrustException -> ResetPasswordAction
+	ProcedureBeanValidator -> ProcedureBeanValidator
+	PatientValidator -> PatientValidator
+	HospitalBeanValidator -> HospitalBeanValidator
+	AllergyBeanValidator -> AllergyBeanValidator
+	SurveySearchValidator -> SurveySearchValidator
+	EMailValidator -> EMailValidator
+	HealthRecordFormValidator -> HealthRecordFormValidator
+	ApptBeanValidator -> ApptBeanValidator
+	ValidationFormat -> LabProcedureValidator
+	ValidationFormat -> BeanValidator
+	ValidationFormat -> ResetPasswordAction
+	ValidationFormat -> EditOfficeVisitValidator
+	AddPersonnelValidator -> AddPersonnelValidator
+	MailValidator -> MailValidator
+	AdverseEventValidator -> AdverseEventValidator
+	DiagnosisBeanValidator -> DiagnosisBeanValidator
+	ApptTypeBeanValidator -> ApptTypeBeanValidator
+	AddPatientValidator -> AddPatientValidator
+	RemoteMonitoringDataBeanValidator -> RemoteMonitoringDataBeanValidator
+	SecurityQAValidator -> SecurityQAValidator
+	LabProcedureValidator -> ErrorList
+	LabProcedureValidator -> LabProcedureBean
+	LabProcedureValidator -> LabProcedureValidator
+	LabProcedureValidator -> LabProcUAPAction
+	LabProcedureValidator -> LabProcHCPAction
+	LabProcedureValidator -> ValidationFormat
+	MessageValidator -> MessageValidator
+	MedicationBeanValidator -> MedicationBeanValidator
+	DrugInteractionValidator -> DrugInteractionValidator
+	PersonnelValidator -> PersonnelValidator
+	BeanValidator -> BeanValidator
+	BeanValidator -> Gender
+	LOINCBeanValidator -> LOINCBeanValidator
+	EditOfficeVisitValidator -> EditOfficeVisitValidator
+	PrescriptionAlerts -> PrescriptionAlerts
+	PrescriptionAlerts -> EmergencyReportAction
+	TransactionType -> TransactionDAO
+	TransactionType -> TransactionType
+	TransactionType -> OperationalProfileLoader
+	TransactionType -> TransactionBeanLoader
+	TransactionType -> OperationalProfile
+	State -> State
+	State -> StateSelect
+	Ethnicity -> Ethnicity
+	Ethnicity -> PatientLoader
+	Ethnicity -> PatientBean
+	Ethnicity -> EthnicityFactor
+	Gender -> Gender
+	Gender -> GetVisitRemindersAction
+	Gender -> PatientLoader
+	Gender -> GenderFactor
+	Gender -> EmergencyReportAction
+	Gender -> BeanValidator
+	Gender -> PatientBean
+	Role -> AddRemoteMonitoringDataAction
+	Role -> Role
+	Role -> ResetPasswordAction
+	Role -> PersonnelLoader
+	Role -> AuthDAO
+	Role -> PersonnelDAO
+	Role -> AddERespAction
+	BloodType -> BloodType
+	BloodType -> PatientLoader
+	BloodType -> PatientBean
+	StateSelect -> StateSelect
+	StateSelect -> State
+	EditHealthHistoryAction -> AuthDAO
+	EditHealthHistoryAction -> HealthRecordsDAO
+	EditHealthHistoryAction -> TransactionDAO
+	EditHealthHistoryAction -> EditHealthHistoryAction
+	EditHealthHistoryAction -> HealthRecordFormValidator
+	EditHealthHistoryAction -> HealthRecord
+	EditHealthHistoryAction -> HealthRecordForm
+	GenerateCalendarAction -> ApptBean
+	GenerateCalendarAction -> EditApptTypeAction
+	GenerateCalendarAction -> ViewMyApptsAction
+	GenerateCalendarAction -> OfficeVisitBean
+	GenerateCalendarAction -> ViewMyRecordsAction
+	GenerateCalendarAction -> LabProcedureBean
+	UpdateICDCodeListAction -> ICDCodesDAO
+	UpdateICDCodeListAction -> DiagnosisBean
+	UpdateICDCodeListAction -> DBException
+	UpdateICDCodeListAction -> iTrustException
+	UpdateICDCodeListAction -> DiagnosisBeanValidator
+	UpdateICDCodeListAction -> TransactionDAO
+	UpdateCPTCodeListAction -> ProcedureBean
+	UpdateCPTCodeListAction -> DBException
+	UpdateCPTCodeListAction -> iTrustException
+	UpdateCPTCodeListAction -> CPTCodesDAO
+	UpdateCPTCodeListAction -> ProcedureBeanValidator
+	UpdateCPTCodeListAction -> TransactionDAO
+	UpdateCPTCodeListAction -> UpdateCPTCodeListAction
+	AddERespAction -> PersonnelBean
+	AddERespAction -> Role
+	AddERespAction -> AuthDAO
+	AddERespAction -> TransactionDAO
+	AddERespAction -> RandomPassword
+	AddERespAction -> AddPersonnelValidator
+	AddERespAction -> PersonnelDAO
+	EditMonitoringListAction -> RemoteMonitoringDAO
+	EditMonitoringListAction -> TransactionDAO
+	EditMonitoringListAction -> RemoteMonitoringDataBean
+	EditMonitoringListAction -> AuthDAO
+	UpdateHospitalListAction -> HospitalBean
+	UpdateHospitalListAction -> DBException
+	UpdateHospitalListAction -> HospitalsDAO
+	UpdateHospitalListAction -> iTrustException
+	UpdateHospitalListAction -> HospitalBeanValidator
+	UpdateHospitalListAction -> TransactionDAO
+	UpdateHospitalListAction -> UpdateHospitalListAction
+	UpdateNDCodeListAction -> DBException
+	UpdateNDCodeListAction -> NDCodesDAO
+	UpdateNDCodeListAction -> MedicationBeanValidator
+	UpdateNDCodeListAction -> MedicationBean
+	UpdateNDCodeListAction -> iTrustException
+	UpdateNDCodeListAction -> TransactionDAO
+	UpdateNDCodeListAction -> UpdateNDCodeListAction
+	EditPrescriptionAction -> OfficeVisitDAO
+	ReferralManagementAction -> ReferralDAO
+	ReferralManagementAction -> TransactionDAO
+	SetSecurityQuestionAction -> SecurityQA
+	SetSecurityQuestionAction -> SecurityQAValidator
+	SetSecurityQuestionAction -> AuthDAO
+	MonitorAdverseEventAction -> AdverseEventDAO
+	MonitorAdverseEventAction -> TransactionDAO
+	MonitorAdverseEventAction -> PatientDAO
+	MonitorAdverseEventAction -> Email
+	MonitorAdverseEventAction -> PatientBean
+	MonitorAdverseEventAction -> EmailUtil
+	MonitorAdverseEventAction -> MessageBean
+	MonitorAdverseEventAction -> AdverseEventBean
+	MonitorAdverseEventAction -> SendMessageAction
+	GetUserNameAction -> DAOFactory
+	GetUserNameAction -> AuthDAO
+	LabProcHCPAction -> LabProcedureDAO
+	LabProcHCPAction -> OfficeVisitDAO
+	LabProcHCPAction -> OfficeVisitBean
+	LabProcHCPAction -> LabProcHCPAction
+	LabProcHCPAction -> LabProcedureBean
+	LabProcHCPAction -> LabProcedureValidator
+	LabProcHCPAction -> TransactionDAO
+	EditRepresentativesAction -> PatientDAO
+	EditRepresentativesAction -> AuthDAO
+	EditRepresentativesAction -> TransactionDAO
+	EditApptTypeAction -> ApptTypeDAO
+	EditApptTypeAction -> EditApptTypeAction
+	EditApptTypeAction -> ApptTypeBean
+	EditApptTypeAction -> DBException
+	EditApptTypeAction -> TransactionDAO
+	EditApptTypeAction -> ApptTypeBeanValidator
+	EditApptTypeAction -> GenerateCalendarAction
+	MyDiagnosisAction -> PatientDAO
+	MyDiagnosisAction -> PersonnelBean
+	MyDiagnosisAction -> PatientBean
+	MyDiagnosisAction -> MedicationBean
+	MyDiagnosisAction -> OfficeVisitDAO
+	MyDiagnosisAction -> HCPDiagnosisBean
+	MyDiagnosisAction -> LabProcedureDAO
+	MyDiagnosisAction -> SurveyBean
+	MyDiagnosisAction -> OfficeVisitBean
+	MyDiagnosisAction -> TransactionDAO
+	MyDiagnosisAction -> PrescriptionBean
+	MyDiagnosisAction -> PersonnelDAO
+	MyDiagnosisAction -> SurveyDAO
+	EmergencyReportAction -> PatientBean
+	EmergencyReportAction -> Gender
+	EmergencyReportAction -> AllergyDAO
+	EmergencyReportAction -> PatientDAO
+	EmergencyReportAction -> MedicationBean
+	EmergencyReportAction -> PrescriptionBean
+	EmergencyReportAction -> PrescriptionAlerts
+	EmergencyReportAction -> DiagnosisBean
+	EmergencyReportAction -> OfficeVisitBean
+	EmergencyReportAction -> OfficeVisitDAO
+	EmergencyReportAction -> DBException
+	EmergencyReportAction -> Email
+	EditPatientAction -> PatientDAO
+	EditPatientAction -> PatientValidator
+	EditPatientAction -> EditPatientAction
+	EditPatientAction -> PatientBean
+	EditPatientAction -> TransactionDAO
+	EditPatientAction -> EmailUtil
+	EditPatientAction -> Email
+	SendMessageAction -> Email
+	SendMessageAction -> MessageDAO
+	SendMessageAction -> MessageBean
+	SendMessageAction -> PatientBean
+	SendMessageAction -> PatientDAO
+	SendMessageAction -> PersonnelBean
+	SendMessageAction -> EMailValidator
+	SendMessageAction -> PersonnelDAO
+	SendMessageAction -> TransactionDAO
+	SendMessageAction -> MessageValidator
+	SendMessageAction -> EmailUtil
+	SendMessageAction -> MonitorAdverseEventAction
+	SendMessageAction -> DBException
+	SendMessageAction -> SendMessageAction
+	EditPHRAction -> AllergyDAO
+	EditPHRAction -> AllergyBean
+	EditPHRAction -> FormValidationException
+	EditPHRAction -> EditPHRAction
+	EditPHRAction -> AllergyBeanValidator
+	EditPHRAction -> TransactionDAO
+	EditPHRAction -> EmailUtil
+	EditPHRAction -> PatientDAO
+	EditPHRAction -> FamilyDAO
+	EditPHRAction -> FamilyMemberBean
+	EditPHRAction -> HealthRecordsDAO
+	EditPHRAction -> OfficeVisitDAO
+	EditPHRAction -> ChronicDiseaseMediator
+	EditPHRAction -> HealthRecord
+	EditPHRAction -> DiagnosisBean
+	EditPHRAction -> PatientBean
+	EditPHRAction -> ICDCodesDAO
+	EditPHRAction -> Email
+	EditPHRAction -> PersonnelBean
+	AddHCPAction -> PersonnelBean
+	AddHCPAction -> PersonnelDAO
+	AddHCPAction -> AuthDAO
+	AddHCPAction -> TransactionDAO
+	AddHCPAction -> RandomPassword
+	AddHCPAction -> AddPersonnelValidator
+	ChronicDiseaseRiskAction -> AuthDAO
+	ChronicDiseaseRiskAction -> TransactionDAO
+	ChronicDiseaseRiskAction -> ChronicDiseaseMediator
+	LabProcUAPAction -> LabProcedureDAO
+	LabProcUAPAction -> LabProcUAPAction
+	LabProcUAPAction -> LabProcedureBean
+	LabProcUAPAction -> LabProcedureValidator
+	LabProcUAPAction -> TransactionDAO
+	LabProcUAPAction -> EmailUtil
+	LabProcUAPAction -> Email
+	LabProcUAPAction -> PatientBean
+	LabProcUAPAction -> PatientDAO
+	UpdateLOINCListAction -> TransactionDAO
+	UpdateLOINCListAction -> LOINCBeanValidator
+	UpdateLOINCListAction -> LOINCbean
+	UpdateLOINCListAction -> LOINCDAO
+	UpdateLOINCListAction -> DBException
+	AddOfficeVisitAction -> OfficeVisitBean
+	AddOfficeVisitAction -> TransactionDAO
+	AddOfficeVisitAction -> OfficeVisitDAO
+	AddOfficeVisitAction -> DAOFactory
+	AddOfficeVisitAction -> AuthDAO
+	LoginFailureAction -> AuthDAO
+	LoginFailureAction -> TransactionDAO
+	LoginFailureAction -> DBException
+	EditOfficeVisitAction -> OfficeVisitDAO
+	EditOfficeVisitAction -> TransactionDAO
+	EditOfficeVisitAction -> EditOfficeVisitAction
+	EditOfficeVisitAction -> LabProcedureDAO
+	EditOfficeVisitAction -> PersonnelDAO
+	EditOfficeVisitAction -> HospitalsDAO
+	EditOfficeVisitAction -> EditOfficeVisitForm
+	EditOfficeVisitAction -> iTrustException
+	EditOfficeVisitAction -> OfficeVisitBean
+	EditOfficeVisitAction -> DrugInteractionDAO
+	EditOfficeVisitAction -> PrescriptionBean
+	EditOfficeVisitAction -> MedicationBean
+	EditOfficeVisitAction -> NDCodesDAO
+	EditOfficeVisitAction -> DrugInteractionBean
+	EditOfficeVisitAction -> PrescriptionReportBean
+	EditOfficeVisitAction -> DBException
+	EditOfficeVisitAction -> AllergyBean
+	EditOfficeVisitAction -> AllergyDAO
+	EditOfficeVisitAction -> Email
+	EditOfficeVisitAction -> PatientDAO
+	EditOfficeVisitAction -> PatientBean
+	EditOfficeVisitAction -> EditOfficeVisitValidator
+	DeclareHCPAction -> PatientDAO
+	DeclareHCPAction -> AuthDAO
+	DeclareHCPAction -> TransactionDAO
+	DeclareHCPAction -> ViewVisitedHCPsAction
+	AddPatientAction -> AddPatientValidator
+	AddPatientAction -> PatientDAO
+	AddPatientAction -> PatientBean
+	AddPatientAction -> AuthDAO
+	AddPatientAction -> RandomPassword
+	AddPatientAction -> TransactionDAO
+	ManageHospitalAssignmentsAction -> HospitalsDAO
+	ManageHospitalAssignmentsAction -> PersonnelDAO
+	ManageHospitalAssignmentsAction -> TransactionDAO
+	EditPersonnelAction -> PersonnelBean
+	EditPersonnelAction -> TransactionDAO
+	EditPersonnelAction -> PersonnelDAO
+	EditPersonnelAction -> PersonnelValidator
+	EditPersonnelAction -> EditPersonnelAction
+	DrugInteractionAction -> DrugInteractionBean
+	DrugInteractionAction -> DrugInteractionDAO
+	DrugInteractionAction -> DBException
+	DrugInteractionAction -> TransactionDAO
+	DrugInteractionAction -> DrugInteractionValidator
+	PrescriptionReportAction -> PatientDAO
+	PrescriptionReportAction -> OfficeVisitDAO
+	PrescriptionReportAction -> ParameterUtil
+	PrescriptionReportAction -> TransactionDAO
+	PrescriptionReportAction -> OfficeVisitBean
+	PrescriptionReportAction -> PrescriptionReportAction
+	ChangeSessionTimeoutAction -> AccessDAO
+	AddUAPAction -> PersonnelBean
+	AddUAPAction -> PersonnelDAO
+	AddUAPAction -> AuthDAO
+	AddUAPAction -> TransactionDAO
+	AddUAPAction -> RandomPassword
+	AddUAPAction -> AddPersonnelValidator
+	SurveyAction -> SurveyDAO
+	SurveyAction -> SurveyBean
+	SurveyAction -> TransactionDAO
+	GetVisitRemindersAction -> VisitRemindersDAO
+	GetVisitRemindersAction -> GetVisitRemindersAction
+	GetVisitRemindersAction -> TransactionDAO
+	GetVisitRemindersAction -> VisitReminderReturnForm
+	GetVisitRemindersAction -> ProcedureBean
+	GetVisitRemindersAction -> PatientDAO
+	GetVisitRemindersAction -> PatientBean
+	GetVisitRemindersAction -> Gender
+	AddApptAction -> DBException
+	AddApptAction -> ApptBeanValidator
+	AddApptAction -> ApptBean
+	AddApptAction -> ApptDAO
+	AddApptAction -> TransactionDAO
+	AddApptAction -> PatientDAO
+	AddApptAction -> PersonnelDAO
+	ResetPasswordAction -> AuthDAO
+	ResetPasswordAction -> PatientDAO
+	ResetPasswordAction -> iTrustException
+	ResetPasswordAction -> DBException
+	ResetPasswordAction -> Role
+	ResetPasswordAction -> ResetPasswordAction
+	ResetPasswordAction -> EmailUtil
+	ResetPasswordAction -> Email
+	ResetPasswordAction -> PatientBean
+	ResetPasswordAction -> PersonnelBean
+	ResetPasswordAction -> PersonnelDAO
+	ResetPasswordAction -> ValidationFormat
+	ResetPasswordAction -> ErrorList
+	AddPHAAction -> PersonnelBean
+	AddPHAAction -> PersonnelDAO
+	AddPHAAction -> AuthDAO
+	AddPHAAction -> TransactionDAO
+	AddPHAAction -> RandomPassword
+	AddPHAAction -> AddPersonnelValidator
+	AddRemoteMonitoringDataAction -> Role
+	AddRemoteMonitoringDataAction -> RemoteMonitoringDataBean
+	AddRemoteMonitoringDataAction -> AuthDAO
+	AddRemoteMonitoringDataAction -> RemoteMonitoringDAO
+	AddRemoteMonitoringDataAction -> TransactionDAO
+	AddRemoteMonitoringDataAction -> RemoteMonitoringDataBeanValidator
+	SearchUsersAction -> DBException
+	SearchUsersAction -> PersonnelDAO
+	SearchUsersAction -> PatientDAO
+	ReportAdverseEventAction -> Email
+	ReportAdverseEventAction -> AdverseEventBean
+	ReportAdverseEventAction -> PatientDAO
+	ReportAdverseEventAction -> PatientBean
+	ReportAdverseEventAction -> PersonnelBean
+	ReportAdverseEventAction -> PersonnelDAO
+	ReportAdverseEventAction -> TransactionDAO
+	ReportAdverseEventAction -> EmailUtil
+	ReportAdverseEventAction -> FormValidationException
+	ReportAdverseEventAction -> AdverseEventValidator
+	ReportAdverseEventAction -> AdverseEventDAO
+	ReportAdverseEventAction -> DBException
+	PatientBaseAction -> PatientDAO
+	PatientBaseAction -> HtmlEncoder
+	PatientBaseAction -> DAOFactory
+	OfficeVisitBaseAction -> OfficeVisitBaseAction
+	OfficeVisitBaseAction -> OfficeVisitDAO
+	PersonnelBaseAction -> DAOFactory
+	PersonnelBaseAction -> PersonnelDAO
+	SessionTimeoutListener -> DAOFactory
+	SessionTimeoutListener -> AccessDAO
+	SessionTimeoutListener -> DBException
+}

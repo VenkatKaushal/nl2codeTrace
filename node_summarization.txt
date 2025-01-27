@@ -1,0 +1,247 @@
+Using LLM: gpt-3.5-turbo
+Using Embedding Model: BAAI/bge-large-en-v1.5
+<class 'pydantic._internal._model_construction.ModelMetaclass'>
+<class 'llama_index.llms.openai.base.OpenAI'>
+Extracting class info objects
+Number of nodes in the graph: 1479
+Extracting call graph links
+Total: 4125
+Present: 4125, Absent: 0
+Number of nodes in the graph: 1672
+Adding method calls
+Done!
+Indexing code nodes...
+Number of documents indexed: 206
+Number of code nodes: 206
+Adding method call links to docs...
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+1
+2
+5
+6
+7
+8
+9
+10
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+11
+12
+13
+Connection error.
+13
+Connection error.
+13
+Connection error.
+13
+Connection error.
+13
+Connection error.
+13
+Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+13
+Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+13
+Connection error.
+13
+Connection error.
+13
+Connection error.
+13
+Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+13
+Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+13
+Connection error.
+13
+Connection error.
+13
+Connection error.
+13
+Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+13
+Connection error.
+13
+Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+13
+Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+13
